@@ -72,4 +72,16 @@
 
 * **HTML page structure:** The basic structure of an HTML page is laid out below. 
 * It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.
-* ![](https://user-images.githubusercontent.com/50612983/149246535-feffd293-edd0-48bd-915d-3a4bcf25ee44.png)
+
+![](https://user-images.githubusercontent.com/50612983/149246535-feffd293-edd0-48bd-915d-3a4bcf25ee44.png)
+
+#### HTML | Editors
+
+* HTML text editors are used to create and modify web pages. 
+* HTML codes can be written in any text editors including the notepad. 
+* One just needs to write HTML in any text editor and save the file with an extension “.html”. Some of the popular HTML text editors are given below:
+
+    * Notepad
+    * Notepad++
+    * Sublime Text 3
+
