@@ -75,6 +75,21 @@
 
 ![](https://user-images.githubusercontent.com/50612983/149246535-feffd293-edd0-48bd-915d-3a4bcf25ee44.png)
 
+```java
+<!DOCTYPE html>  
+<html>  
+  <head>  
+    <title>Page Title</title>  
+ </head>  
+  <body>  
+       <h2>Headding Content</h2>  
+       <p>Paragraph Content OR paragraph tag</p>  
+       <p style="color: red">The style is attribute of paragraph tag</p>  
+  </body>  
+</html>  
+
+```
+
 #### HTML | Editors
 
 * HTML text editors are used to create and modify web pages. 
