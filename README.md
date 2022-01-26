@@ -6,5 +6,5 @@
  * React JS (Node Js & Express JS)
  * Angular 2.x
  * Full Stack Application Srping Boot + MongoDB + ReactJs
- * Full Stack Application Spring Boot + MOngoDB + Angular 7/8
+ * Full Stack Application Spring Boot + MongoDB + Angular 7/8
  
