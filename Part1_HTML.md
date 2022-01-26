@@ -1,7 +1,15 @@
 ## HTM & CSS
 
-#### Introduction 
+* **From This Lesstion What we are going to learn**
+   * About HTML Introduction
+   * What is HTML
+   * Advantages & Disadvantages Of HTML
+   * Versions  & Browser Supports
+   * Building blocks of HTML (Tags and Elements and Attributes)  and its syntax
+   * Structure of an HTML Document
+   * Editors of HTML to write HTML code and execute 
 
+#### Introduction 
 * HTML stands for HyperText Markup Language.
 * CSS stands for Cascading Style Sheets.
 * HTML is the combination of **Hypertext** and **Markup language**.
@@ -26,6 +34,12 @@
 * HTML is used to build websites.
 * It is supported by all browsers.
 * It can be integrated with other languages like CSS, JavaScript, etc.
+
+#### Disadvantages:
+ * HTML can only create static web pages.
+ * For dynamic web pages, other languages have to be used.
+ * A large amount of code has to be written to create a simple web page.
+ * The security feature is not good.
 
 ![](https://user-images.githubusercontent.com/50612983/149185070-75b1c221-c68e-420e-a347-27d1758cb3e8.png "149185070-75b1c221-c68e-420e-a347-27d1758cb3e8")
 
