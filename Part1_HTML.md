@@ -1,7 +1,7 @@
 ## HTM & CSS
 
 * **From This Lesstion What we are going to learn**
-   * About HTML Introduction
+   * About HTML OR Introduction
    * What is HTML
    * Advantages & Disadvantages Of HTML
    * Versions  & Browser Supports
