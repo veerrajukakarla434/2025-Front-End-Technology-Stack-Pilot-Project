@@ -1,5 +1,16 @@
 ## HTML Tags & Attributes 
 
+* ** From This class we will learn about below mentioned tags
+* Paired and unpaired tags
+* HTML Docutype tag
+* HTML Heading  tag
+* HTML P Tag - Paragraph
+* HTML Anchor tag
+* HTML meta tag
+* HTML tables tags
+
+
+
 #### Tags
 
 * HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content  and a simple content. 
