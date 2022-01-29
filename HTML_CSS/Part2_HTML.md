@@ -32,6 +32,7 @@
 ```java
 Syntax: <tag> Content </tag>
 ```
+
 ![image](https://user-images.githubusercontent.com/40323661/151658534-e05607b4-9e38-4039-8d62-4051507b9709.png)
 
 #### Unpaired Tags - Singular Tags
@@ -42,26 +43,31 @@ Syntax: <tag> Content </tag>
 
 ![image](https://user-images.githubusercontent.com/40323661/151658597-900cb0b7-daae-4d86-85a7-df5dcf383c9f.png)
 
-#### HTML <meta> Tag
+
+####  HTML meta Tag
 
 * **Definition and Usage :**
-* The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.
-
-* <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
-
+* The meta tag defines metadata about an HTML document. Metadata is data (information) about data.
+* meta tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
 * Metadata will not be displayed on the page, but is machine parsable.
-
 * Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
 
-#### HTML Heading Tags - H1 tag to H6 tag
+  ![image](https://user-images.githubusercontent.com/40323661/151659328-05e43eb7-2215-4db6-967e-500ae102f777.png)
 
-```java
- Heading tag is used to give headings of different sizes in a document. There are six different HTML heading tags, which gives different heading sizes and are defined by <h1> to <h6> tags. <h1> gives the largest heading and <h6> gives the smallest one. So <h1> can be used for most important headings and <h6> can be used for a least important one.
-```
+    
+```HTML
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```  
+ 
+  * **Example**  
   
-* **Example**
-  
-```java
+```HTML
   
 <!DOCTYPE html> 
 <html lang="en">
