@@ -1,6 +1,6 @@
 ## HTML Tags & Attributes 
 
-* ** From This class we will learn about below mentioned tags
+* **From This class we will learn about below mentioned tags**
 * Paired and unpaired tags
 * HTML Docutype tag
 * HTML Heading  tag
