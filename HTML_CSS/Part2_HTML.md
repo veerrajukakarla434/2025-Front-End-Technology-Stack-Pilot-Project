@@ -42,6 +42,45 @@ Syntax: <tag> Content </tag>
 
 ![image](https://user-images.githubusercontent.com/40323661/151658597-900cb0b7-daae-4d86-85a7-df5dcf383c9f.png)
 
+#### HTML <meta> Tag
+
+* **Definition and Usage :**
+* The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+* <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+
+* Metadata will not be displayed on the page, but is machine parsable.
+
+* Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+
+#### HTML Heading Tags - H1 tag to H6 tag
+
+```java
+ Heading tag is used to give headings of different sizes in a document. There are six different HTML heading tags, which gives different heading sizes and are defined by <h1> to <h6> tags. <h1> gives the largest heading and <h6> gives the smallest one. So <h1> can be used for most important headings and <h6> can be used for a least important one.
+```
+  
+* **Example**
+  
+```java
+  
+<!DOCTYPE html> 
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <title> HTML Heading Tag </title> 
+  </head> 
+
+  <body> 
+    <h1> This is Heading 1 </h1>
+    <h2> This is Heading 2 </h2> 
+    <h3> This is Heading 3 </h3> 
+    <h4> This is Heading 4 </h4> 
+    <h5> This is Heading 5 </h5> 
+    <h6> This is Heading 6 </h6> 
+  </body> 
+
+</html> 
+```
 
 
 * Tags Refeence : https://www.geeksforgeeks.org/html-tags-complete-reference/
