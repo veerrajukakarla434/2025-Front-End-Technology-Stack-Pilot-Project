@@ -64,7 +64,12 @@ Syntax: <tag> Content </tag>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 ```  
- 
+
+#### HTML Heading  tag
+  
+![image](https://user-images.githubusercontent.com/40323661/151659449-78cbcbae-719c-4a60-a026-966d09a85eca.png)
+  
+  
   * **Example**  
   
 ```HTML
@@ -87,6 +92,38 @@ Syntax: <tag> Content </tag>
 
 </html> 
 ```
+#### HTML P Tag - Paragraph element
 
+![image](https://user-images.githubusercontent.com/40323661/151659491-f5f61e0b-3bb4-4b2d-9388-6154819a40d4.png)
+
+```HTML
+ <html lang="en">
+	<head>
+	 <meta charset="UTF-8">
+	 <title> HTML Paragraph Tag </title>
+	</head> 
+	<body> 
+		<p> This is First Paragraph </p>
+		<p> This is Second Paragraph </p> 
+		<p> This is Third Paragraph </p> 
+	</body> 
+</html>  
+```  
+#### HTML a tag - What is href in HTML
+
+  ![image](https://user-images.githubusercontent.com/40323661/151659586-fd5ebc4b-9258-496d-9026-ed16ac52d271.png)
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> HTML Anchor Tag </title> 
+  </head>
+  <body>
+  <a href="https://www.youtube.com/vkakarla"> Welcome to CodeRepublics </a>
+  </body>
+</html>
+```  
 
 * Tags Refeence : https://www.geeksforgeeks.org/html-tags-complete-reference/
