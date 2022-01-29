@@ -105,7 +105,7 @@ Syntax: <tag> Content </tag>
 ```
 #### HTML P Tag - Paragraph element
 
-![image](https://user-images.githubusercontent.com/40323661/151659491-f5f61e0b-3bb4-4b2d-9388-6154819a40d4.png)
+
 
 ```HTML
  <html lang="en">
