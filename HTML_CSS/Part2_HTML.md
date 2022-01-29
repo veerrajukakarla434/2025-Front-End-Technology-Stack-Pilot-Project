@@ -125,5 +125,30 @@ Syntax: <tag> Content </tag>
   </body>
 </html>
 ```  
+
+#### HTML Table
+
+![image](https://user-images.githubusercontent.com/40323661/151659822-bae62db2-a34e-4c7d-8321-40db7924e6ea.png)
+
+![image](https://user-images.githubusercontent.com/40323661/151659844-e1c4909f-a828-4865-a4cb-0988531e29d6.png)
+	
+* **HTML Table Example** 
+* Let's see the example of HTML table tag. It output is shown above.	
+	
+```HTML
+<!DOCTYPE>
+<html>  
+	<body>  
+	<table>  
+		<tr><th>First_Name</th><th>Last_Name</th><th>Marks</th></tr>  
+		<tr><td>Sonoo</td><td>Jaiswal</td><td>60</td></tr>  
+		<tr><td>James</td><td>William</td><td>80</td></tr>  
+		<tr><td>Swati</td><td>Sironi</td><td>82</td></tr>  
+		<tr><td>Chetna</td><td>Singh</td><td>72</td></tr>  
+	</table>  
+	</body>
+</html> 	
+```	
+	
 	
 * Tags Refeence : https://www.geeksforgeeks.org/html-tags-complete-reference/
