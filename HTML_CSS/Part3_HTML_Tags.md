@@ -10,6 +10,7 @@
  * HTML Table Styling
  * HTML Table Colgroup
 
+* **HTML COLOR PICKER** : https://htmlcolorcodes.com/color-picker/
 
 
 ![image](https://user-images.githubusercontent.com/40323661/151695421-1951b2f8-9aee-4788-8982-f68702e70f50.png)
