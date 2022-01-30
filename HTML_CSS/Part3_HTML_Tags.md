@@ -1038,5 +1038,102 @@ table, th, td {
   * Unordered List or Bulleted List (ul)
   * Description List or Definition List (dl)
 
+![image](https://user-images.githubusercontent.com/40323661/151697816-886d69dd-ab41-4432-8a23-bced70cb4726.png)
+
+```HTML
+<!DOCTYPE>
+<html>  
+<body>  
+<ol>  
+ <li>Aries</li>  
+ <li>Bingo</li>  
+ <li>Leo</li>  
+ <li>Oracle</li>  
+</ol>  
+</body>
+</html>  
+```
+![image](https://user-images.githubusercontent.com/40323661/151697843-7349b3f3-825b-49e4-9cf4-d9777f1a0e7f.png)
+
+```HTML
+<!DOCTYPE>
+<html>  
+<body>  
+<ul>  
+ <li>Aries</li>  
+ <li>Bingo</li>  
+ <li>Leo</li>  
+ <li>Oracle</li>  
+</ul>  
+</body>
+</html>  
+```
+![image](https://user-images.githubusercontent.com/40323661/151697920-33a50451-ec79-4d59-a34e-8c09162d2917.png)
+
+```HTML
+<!DOCTYPE>
+<html>  
+<body>  
+<dl>  
+  <dt>Aries</dt>  
+  <dd>-One of the 12 horoscope sign.</dd>  
+  <dt>Bingo</dt>  
+  <dd>-One of my evening snacks</dd>  
+ <dt>Leo</dt>  
+ <dd>-It is also an one of the 12 horoscope sign.</dd>  
+  <dt>Oracle</dt>  
+  <dd>-It is a multinational technology corporation.</dd>   
+</dl>  
+</body>
+</html>  
+
+ 
+```
+![image](https://user-images.githubusercontent.com/40323661/151697941-0b6bb7c8-a1e4-45bd-9e4f-efbf3f50135a.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested list</title>
+</head>
+<body>
+	<p>List of Indian States with thier capital</p>
+<ol>
+	<li>Delhi
+		<ul>
+			<li>NewDelhi</li>
+		</ul>
+	</li>
+	<li>Haryana
+		<ul>
+			<li>Chandigarh</li>
+		</ul>
+	</li>
+	<li>Gujarat
+		<ul>
+			<li>Gandhinagar</li>
+		</ul>
+	</li>
+	<li>Rajasthan 
+		<ul>
+			<li>Jaipur</li>
+		</ul>
+	</li>
+	<li>Maharashtra
+		<ul>
+			<li>Mumbai</li>
+		</ul>
+	</li>
+	<li>Uttarpradesh
+		<ul>
+			<li>Lucknow</li></ul>
+	</li>
+</ol>
+</body>
+</html>
+
+ 
+```
 
 
