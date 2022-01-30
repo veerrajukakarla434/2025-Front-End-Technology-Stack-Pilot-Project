@@ -1031,5 +1031,12 @@ table, th, td {
 ```
 
 #### HTML Lists
-![image](https://user-images.githubusercontent.com/40323661/151697544-c92ae4db-a453-4584-9a20-bb66bf308190.png)
+
+* HTML Lists are used to specify lists of information. All lists may contain one or more list elements. There are three different types of HTML lists:
+
+  * Ordered List or Numbered List (ol)
+  * Unordered List or Bulleted List (ul)
+  * Description List or Definition List (dl)
+
+
 
