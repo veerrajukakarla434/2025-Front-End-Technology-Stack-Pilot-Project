@@ -1,7 +1,7 @@
 ## HTML & CSS
 
-## HTML Table Borders
-
+* **From This class What we are going to learn** 
+ * HTML Colors
  * HTML Table Borders
  * HTML Table Sizes
  * HTML Table Headers
@@ -12,6 +12,100 @@
 
 * **HTML COLOR PICKER** : https://htmlcolorcodes.com/color-picker/
 
+#### HTML Colors
+
+* HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+
+![image](https://user-images.githubusercontent.com/40323661/151697153-c5d4445c-38f0-4106-b582-820f6fe44cf8.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/151697227-577f7329-7f2b-43a2-8edb-5681e155c44e.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+<p style="background-color:Tomato;">
+Color is applied to paragraph also
+</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/151697264-4e2d7c72-460d-4e35-8552-22a7ab8037c4.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3 style="color:Tomato;">Hello World</h3>
+
+<p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+<p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/151697294-dee68ed8-9e31-4333-b01b-3ae2b12aa589.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="border: 2px solid Tomato;">Hello World</h1>
+
+<h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
+
+<h1 style="border: 2px solid Violet;">Hello World</h1>
+
+</body>
+</html>
+
+
+```
+
+#### Color Values
+![image](https://user-images.githubusercontent.com/40323661/151697442-4a873d92-6ebe-4e0d-8f5e-c5474850ca90.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Same as color name "Tomato":</p>
+
+<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+<h1 style="background-color:#ff6347;">#ff6347</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+</body>
+</html>
+```
+
+#### HTML Table Borders
 
 ![image](https://user-images.githubusercontent.com/40323661/151695421-1951b2f8-9aee-4788-8982-f68702e70f50.png)
 
