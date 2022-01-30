@@ -183,5 +183,99 @@ table, th, td {
 </body>
 </html>
 
+```
+![image](https://user-images.githubusercontent.com/40323661/151695562-01cad78a-a120-4174-94e4-c2afa25a554d.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Rounded Borders</h2>
+
+<p>Use the CSS border-radius property to add rounded corners to the table cells.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
 
 ```
+![image](https://user-images.githubusercontent.com/40323661/151695607-21046960-024f-4f33-a2bc-9d0dcc4bd70a.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+th, td {
+  border-style:solid;
+  border-color: #96D4D4;
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Border Color</h2>
+
+<p>Use the CSS border-color property to set the color of the borders.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+
+#### HTML Table Sizes
+
+
