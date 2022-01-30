@@ -12,11 +12,11 @@
 
 
 
-## How To Add a Border
+![image](https://user-images.githubusercontent.com/40323661/151695421-1951b2f8-9aee-4788-8982-f68702e70f50.png)
+
 
 * HTML tables can have borders of different styles and shapes.
-* When you add a border to a table, you also add borders around each table cell:
-* To add a border, use the CSS border property on table, th, and td elements:
+
 
 ```HTML
 <!DOCTYPE html>
@@ -42,9 +42,8 @@
 
 ```
 
-#### Collapsed Table Borders
-* To avoid having double borders like in the example above, set the CSS border-collapse property to collapse.
-* This will make the borders collapse into a single border:
+![image](https://user-images.githubusercontent.com/40323661/151695383-e2106e42-944b-462b-b715-987ef86674e7.png)
+
 
 ```HTML
 <!DOCTYPE html>
