@@ -9,6 +9,7 @@
  * HTML Table Colspan & Rowspan
  * HTML Table Styling
  * HTML Table Colgroup
+ * HTML Lists
 
 * **HTML COLOR PICKER** : https://htmlcolorcodes.com/color-picker/
 
