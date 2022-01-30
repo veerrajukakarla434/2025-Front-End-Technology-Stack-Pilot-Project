@@ -88,4 +88,100 @@ table, th, td {
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/151695470-c3a6bd0f-6750-4569-81d4-c2806d9e0c3e.png)
 
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Invisible Borders</h2>
+
+<p>Style the table with white borders and a background color of the cells to make the impression of invisible borders.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+```
+![image](https://user-images.githubusercontent.com/40323661/151695528-54246409-0369-4204-bbe9-dd0959faf9f1.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Rounded Borders</h2>
+
+<p>Use the CSS border-radius property to add rounded corners to the borders.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+```
