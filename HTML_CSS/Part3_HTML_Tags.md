@@ -764,3 +764,43 @@ table, th, td {
 
 
 ```
+![image](https://user-images.githubusercontent.com/40323661/151696376-a1c3263e-e123-4b15-88d3-88f2dcb90412.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Cell that spans two rows</h2>
+<p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+</table>
+</body>
+</html>
+
+```
+#### HTML Table Styling
+![image](https://user-images.githubusercontent.com/40323661/151696422-1771b8ed-0e5a-4780-92b7-9120ce632da2.png)
+![image](https://user-images.githubusercontent.com/40323661/151696431-18c33301-b70d-4ec5-9938-2f61fe8188ac.png)
+
+
