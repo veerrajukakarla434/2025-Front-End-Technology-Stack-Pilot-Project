@@ -1,5 +1,7 @@
 # 2022-Front-End-Training
 #### Tech Stack
+
+* **Note** : Follow above folders and documents based on below sequence 
  
  * HTML With CSS
  * Java Script & Type Script
