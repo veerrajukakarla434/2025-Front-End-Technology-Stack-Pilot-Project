@@ -579,6 +579,118 @@
 
 ```
 
+#### HTML Form Attributes
+
+![image](https://user-images.githubusercontent.com/40323661/152094800-ccbf193c-c459-4924-9657-54c097f6bffe.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152095113-50482df8-9501-4c1c-917a-643b0a1d9b0e.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The form target attribute</h2>
+
+<p>When submitting this form, the result will be opened in a new browser tab:</p>
+
+<form action="/action_page.php" target="_blank">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
+
+```
+![image](https://user-images.githubusercontent.com/40323661/152095184-1a6af8f7-a743-48fa-8dc8-ae08be0c49db.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The method Attribute</h2>
+
+<p>This form will be submitted using the GET method:</p>
+
+<form action="/action_page.php" target="_blank" method="get">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>After you submit, notice that the form values is visible in the address bar of the new browser tab.</p>
+
+</body>
+</html>
+```
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The method Attribute</h2>
+
+<p>This form will be submitted using the POST method:</p>
+
+<form action="/action_page.php" target="_blank" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>After you submit, notice that, unlike the GET method, the form values is NOT visible in the address bar of the new browser tab.</p>
+
+</body>
+</html>
+```
+
+* **Notes on GET:**
+
+  * Appends the form data to the URL, in name/value pairs
+  * NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+  * The length of a URL is limited (2048 characters)
+  * Useful for form submissions where a user wants to bookmark the result
+  * GET is good for non-secure data, like query strings in Google
+
+* **Notes on POST:**
+
+  * Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+  * POST has no size limitations, and can be used to send large amounts of data.
+  * Form submissions with POST cannot be bookmarked
+
+
+
+
 
 
 
