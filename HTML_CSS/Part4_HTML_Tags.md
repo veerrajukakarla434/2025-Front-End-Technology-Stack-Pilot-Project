@@ -143,6 +143,67 @@
 </html>
 ```
 
+#### HTML class Attribute
+
+![image](https://user-images.githubusercontent.com/40323661/152080063-e9a37aaa-29d5-4632-bb9e-bcf33ff80888.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+<h2>London</h2>
+<p>London is the capital of England.</p>
+</div> 
+
+<div class="city">
+<h2>Paris</h2>
+<p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+</div>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152080454-49ca1285-4681-4fd2-bd9c-d5ed4e1bb2e4.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.note {
+  font-size: 120%;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>My <span class="note">Important</span> Heading</h1>
+<p>This is some <span class="note">important</span> text.</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152080532-b0ae98d9-502e-4bae-b845-02fe2f7f2516.png)
 
 
 
