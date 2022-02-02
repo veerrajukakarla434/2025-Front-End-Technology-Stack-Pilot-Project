@@ -480,6 +480,106 @@
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/152094177-3ccc94c0-a461-4c65-a1e5-f5bfa11c79df.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Radio Buttons</h2>
+
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form> 
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152094284-cab6424d-8216-4236-915f-2592f74f6743.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152094318-692b6eec-1c04-48f8-a7d8-15c32df6b8c2.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152094376-c42d7368-fbe6-4c86-9511-b3e31b7e9ff6.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152094407-141fe9c9-ebe4-4fcc-8479-82e17ffafd17.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152094501-ce3f2de2-31d3-4d55-9540-1cd51151fee8.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152094532-5f9ecfec-f2bf-42c5-a9f3-eae47f94a934.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The name Attribute</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="John"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+<p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</p>
+
+</body>
+</html>
+
+```
+
+
 
 
 
