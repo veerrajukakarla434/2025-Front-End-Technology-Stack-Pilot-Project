@@ -145,7 +145,11 @@
 
 #### HTML class Attribute
 
+![image](https://user-images.githubusercontent.com/40323661/152080820-c6ad6403-db97-4777-8219-e1a137b1c669.png)
+
+
 ![image](https://user-images.githubusercontent.com/40323661/152080063-e9a37aaa-29d5-4632-bb9e-bcf33ff80888.png)
+
 
 ```HTML
 <!DOCTYPE html>
