@@ -688,6 +688,9 @@
   * POST has no size limitations, and can be used to send large amounts of data.
   * Form submissions with POST cannot be bookmarked
 
+#### HTML Form Elements
+
+![image](https://user-images.githubusercontent.com/40323661/152095747-935b1953-ec49-4fba-a5fb-68b718b8e7a1.png)
 
 
 
