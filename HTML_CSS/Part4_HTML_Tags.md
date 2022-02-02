@@ -210,6 +210,62 @@
 ![image](https://user-images.githubusercontent.com/40323661/152080532-b0ae98d9-502e-4bae-b845-02fe2f7f2516.png)
 
 
+![image](https://user-images.githubusercontent.com/40323661/152080999-1b469136-40a7-4300-8609-77be5824a55e.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+
+.main {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Multiple Classes</h2>
+<p>Here, all three h2 elements belongs to the "city" class. In addition, London also belongs to the "main" class, which center-aligns the text.</p>
+
+<h2 class="city main">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152081044-ac2ff356-6c9d-43f9-817b-d28f539315d7.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+</style>
+</head>
+<body>
+
+<h2>Different Elements Can Share Same Class</h2>
+
+<p>Even if the two elements do not have the same tag name, they can both point to the same class, and get the same CSS styling:</p>
+
+<h2 class="city">Paris</h2>
+<p class="city">Paris is the capital of France.</p>
+
+</body>
+</html>
+```
 
 
 
