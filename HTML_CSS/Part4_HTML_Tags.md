@@ -129,9 +129,7 @@
 </html>
 ```
 
-![image](https://user-images.githubusercontent.com/40323661/152079637-789b3419-ca1d-446b-9fe3-141757b8682e.png)
-
-* inside the folder
+* Inside the folder
 
 ```HTML
 <!DOCTYPE html>
