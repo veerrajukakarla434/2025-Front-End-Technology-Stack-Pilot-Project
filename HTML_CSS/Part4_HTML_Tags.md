@@ -454,6 +454,34 @@
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/152093186-4b626f91-cbac-45e4-8fae-f36da23c6347.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152093216-34a5e407-69e1-4a50-b3e7-0756fdc3f09a.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text input fields</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of text input fields is 20 characters.</p>
+
+</body>
+</html>
+```
+
+
+
 
 
 
