@@ -426,9 +426,33 @@
 </html>
 ```
 
+#### HTML Forms
+
+* **An HTML form is used to collect user input. The user input is most often sent to a server for processing.**
+
+![image](https://user-images.githubusercontent.com/40323661/152093011-ad6fa6b1-03c4-4adf-ba75-5302e657c61a.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152092639-0bc1d7f8-de0c-49db-98a8-ca0a9e220ae2.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/backend_acion_class">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
 
 
-
+</body>
+</html>
+```
 
 
 
