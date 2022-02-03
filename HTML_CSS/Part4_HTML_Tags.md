@@ -692,6 +692,411 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/152095747-935b1953-ec49-4fba-a5fb-68b718b8e7a1.png)
 
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The input Element</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152386779-07304439-9ce7-442b-a240-4f05296a1da0.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152386949-3751310a-1379-4016-a45f-7c3a8f0f8fac.png)
+
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Pre-selected Option</h2>
+
+<p>You can preselect an option with the selected attribute:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat" selected>Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152387236-2f297c4e-9b56-45f6-8070-8839fd8d7afa.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Visible Option Values</h2>
+
+<p>Use the size attribute to specify the number of visible values.</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="3">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select><br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+
+```
+
+* **Allow Multiple Selections:**
+* Use the multiple attribute to allow the user to select more than one value:
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Allow Multiple Selections</h2>
+
+<p>Use the multiple attribute to allow the user to select more than one value.</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select><br><br>
+  <input type="submit">
+</form>
+
+<p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152387544-7c97c382-d9e7-485a-8193-855492d05596.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Textarea</h2>
+<p>The textarea element defines a multi-line input field.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+```
+* **You can also define the size of the text area by using CSS:**
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Styling Textarea</h2>
+
+<p>Use CSS to change the size of the textarea:</p>
+
+<form action="/action_page.php">
+  <textarea name="message" style="width:200px; height:600px;">The cat was playing in the garden.</textarea>
+  <br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152388033-fa0e34ed-09ca-41f8-809b-80b00ad38854.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The button Element</h2>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152388239-57002b16-854f-4c29-916d-5ae008630309.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Grouping Form Data with Fieldset</h2>
+
+<p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152388568-d897e6fc-93fc-4379-974b-99547b9ca96d.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The datalist Element</h2>
+
+<p>The datalist element specifies a list of pre-defined options for an input element.</p>
+
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><b>Note:</b> The datalist tag is not supported in Safari prior version 12.1.</p>
+
+</body>
+</html>
+```
+#### HTML Input Types
+
+![image](https://user-images.githubusercontent.com/40323661/152389002-1f2bb523-9dbd-4d99-b250-4f65a5a4e9c6.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152389049-ed3f16e8-dd1f-42c4-bc0e-654c8647b2ae.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Password field</h2>
+
+<p>The <strong>input type="password"</strong> defines a password field:</p>
+
+<form action="/action_page.php">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>The characters in a password field are masked (shown as asterisks or circles).</p>
+
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152389257-b3dcd6f4-5c7f-497d-aeb0-7a783039f267.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Reset Button</h2>
+
+<p>The <strong>input type="reset"</strong> defines a reset button that resets all form values to their default values:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form> 
+
+<p>If you change the input values and then click the "Reset" button, the form-data will be reset to the default values.</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152389436-4e1018cb-44d4-4c35-8ec4-bba9f9271acb.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/152389592-cf0f3fe1-6d7c-4879-ab23-8d71b89348fe.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Date Field</h2>
+
+<p>The <strong>input type="date"</strong> is used for input fields that should contain a date.</p>
+
+<form action="/action_page.php">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152389904-0ae27fa4-5270-4245-85b5-e31b4c7076c0.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Date Field Restrictions</h2>
+
+<p>Use the min and max attributes to add restrictions to dates:</p>
+
+<form action="/action_page.php">
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+
+</body>
+</html>
+
+```
+![image](https://user-images.githubusercontent.com/40323661/152390360-285c8aa3-a749-4f1d-a58a-143ce9ca0f2a.png)
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Email Field</h2>
+
+<p>The <strong>input type="email"</strong> is used for input fields that should contain an e-mail address:</p>
+
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/152390516-4b2c0bea-0417-4a54-8e7c-56e30a63917d.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>File upload</h1>
+
+<p>Show a file-select field which allows a file to be chosen for upload:</p>
+<form action="/action_page.php">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+```
+
+
+
+
 
 
 
