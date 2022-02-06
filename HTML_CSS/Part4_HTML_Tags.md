@@ -1094,6 +1094,15 @@
 
 ```
 
+#### HTML Versus XHTML
+
+![image](https://user-images.githubusercontent.com/40323661/152671060-fc16bd2b-4cd5-4a2b-ac74-ac6411610987.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152671068-9de398d1-1c8f-443e-b64e-7d1ddbce43d9.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152671085-d7984b33-005a-4ff4-9194-c25fcff2e84c.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152671095-e14642b1-b4cd-44df-9b3f-acc889651f79.png)
 
 
 
