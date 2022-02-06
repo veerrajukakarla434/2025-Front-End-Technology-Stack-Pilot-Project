@@ -27,7 +27,4 @@
 ![image](https://user-images.githubusercontent.com/40323661/152679749-4c2d70a4-ab0d-4489-b237-3d075d0c966d.png)
 
 
-![image](https://user-images.githubusercontent.com/40323661/152679601-2033bb92-bfa7-40e0-8c53-077278b30910.png)
-
-
 ![image](https://user-images.githubusercontent.com/40323661/152679143-70f9758d-353b-4c22-9bda-f95e60fb2bb7.png)
