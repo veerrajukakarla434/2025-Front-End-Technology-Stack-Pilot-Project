@@ -6,6 +6,12 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/152679867-da3834b6-d6d6-4b19-bfa3-22ddeff34bf5.png)
 
+
+#### Relation BW  HTML CSS JS
+
+![image](https://user-images.githubusercontent.com/40323661/152680115-bb897e88-5005-432c-8594-c48ecfa7b970.png)
+
+
 #### Definitions 
 
 * JavaScript is the world's most popular programming language.
