@@ -1105,6 +1105,28 @@
 ![image](https://user-images.githubusercontent.com/40323661/152671095-e14642b1-b4cd-44df-9b3f-acc889651f79.png)
 
 
+#### HTML JavaScript
+
+![image](https://user-images.githubusercontent.com/40323661/152671179-06b24527-3e9d-4d84-b74e-2a06484d7096.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Use JavaScript to Change Text</h2>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+</body>
+</html>
+```
+
 
 
 
