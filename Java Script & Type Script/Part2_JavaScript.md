@@ -13,12 +13,145 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/152821396-e8821b70-8607-4460-a712-6eae08c0b759.png)
 
-#### JavaScript DOM 
+#### Where to write JavaScript & How to write JavaScript
 
-* **What is DOM in JavaScript?**
+![image](https://user-images.githubusercontent.com/40323661/152825599-6fa084aa-f682-4089-bd00-a9150161a3c6.png)
 
-* JavaScript can access all the elements in a webpage making use of Document Object Model (DOM). In fact, the web browser creates a DOM of the webpage when the page is loaded.  
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1> JavaScript Tutorials</h1>
+  
+    <script>
+        //write JavaScript code here..
+        alert('Hello, how are you?')
+    </script>
+</body>
+</html>
+```
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
 
-* The DOM model is created as a tree of objects like this:
+<h2>JavaScript in Body</h2>
 
-![image](https://user-images.githubusercontent.com/40323661/152823467-d83ac2fa-8151-4b81-a352-a3e88b1f8ca0.png)
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+</body>
+</html> 
+
+```
+
+
+![image](https://user-images.githubusercontent.com/40323661/152825902-5894a104-d7fe-4289-a0a9-16ceceb186db.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152826101-7dda26db-ba4f-49ad-98c5-c271768744f4.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        alert('Executing JavaScript 1')
+    </script>
+</head>
+<body>
+    <h1> JavaScript Tutorials</h1>
+  
+    <script>
+        alert('Executing JavaScript 2')
+    </script>
+    
+    <p>This page contains multiple script tags.</p>
+    
+    <script>
+        alert('Executing JavaScript 3')
+    </script>
+</body>
+</html>
+
+```
+* Example2
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html> 
+```
+* Example3
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Demo JavaScript in Body</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+</body>
+</html> 
+```
+![image](https://user-images.githubusercontent.com/40323661/152826790-acb62fb7-3708-4a44-960d-26d6e38b3b9c.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152826877-3be38e06-c417-462e-9864-d92b65009a58.png)
+
+```HTML
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+```
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Demo External JavaScript</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>This example links to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+
+<script src="myScript.js"></script>
+
+</body>
+</html>
+```
+
+
+
+
