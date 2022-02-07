@@ -175,6 +175,114 @@ document.getElementById("demo").innerHTML = 5 + 6;
 </html> 
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/152830052-f3d76347-6939-4d1b-8f43-728419c187e0.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<p>Never call document.write after the document has finished loading.
+It will overwrite the whole document.</p>
+
+<script>
+document.write(5 + 6);
+</script>
+
+</body>
+</html> 
+```
+![image](https://user-images.githubusercontent.com/40323661/152830241-badc6faa-9328-4896-b0cf-59187abe8bbd.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+</body>
+</html> 
+```
+![image](https://user-images.githubusercontent.com/40323661/152830388-109955b8-b82c-47de-a9fd-5c3d0a831a24.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152830441-31d24184-4637-4944-9e77-74886b59402c.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<script>
+window.alert(5 + 6);
+</script>
+
+</body>
+</html> 
+```
+![image](https://user-images.githubusercontent.com/40323661/152830580-f736ea48-5bb0-4377-bce6-33346156a020.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<script>
+alert(5 + 6);
+</script>
+
+</body>
+</html> 
+```
+![image](https://user-images.githubusercontent.com/40323661/152830709-01e9ebe4-c238-4faf-b9ee-da4cb3bd69c3.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Activate Debugging</h2>
+
+<p>F12 on your keyboard will activate debugging.</p>
+<p>Then select "Console" in the debugger menu.</p>
+<p>Then click Run again.</p>
+
+<script>
+console.log(5 + 6);
+</script>
+
+</body>
+</html> 
+```
+![image](https://user-images.githubusercontent.com/40323661/152830991-f283927b-25a2-4697-9966-ef09195abd9c.png)
+
+```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The window.print() Method</h2>
+
+<p>Click the button to print the current page.</p>
+
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>
+```
+
 
 
 
