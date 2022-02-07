@@ -151,6 +151,29 @@ function myFunction() {
 </body>
 </html>
 ```
+#### JavaScript Output
+
+![image](https://user-images.githubusercontent.com/40323661/152828238-3284e503-034c-48ac-b7e8-9e5d3adb3630.png)
+
+![image](https://user-images.githubusercontent.com/40323661/152828377-7618f422-e9de-4efb-a58f-4d2210dbb9b9.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+</body>
+</html> 
+```
 
 
 
