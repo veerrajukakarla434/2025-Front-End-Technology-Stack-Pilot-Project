@@ -15,6 +15,10 @@
 
 #### Where to write JavaScript & How to write JavaScript
 
+
+![image](https://user-images.githubusercontent.com/40323661/153041024-ef9619b7-71fc-46f9-a9f4-264934a33a83.png)
+
+
 ![image](https://user-images.githubusercontent.com/40323661/152825599-6fa084aa-f682-4089-bd00-a9150161a3c6.png)
 
 ```HTML
