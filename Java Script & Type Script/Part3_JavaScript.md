@@ -1,7 +1,32 @@
 ## Java Script IDE Installation And Run Code On It
 
-* **Steps To Download**
-* Down load from https://code.visualstudio.com/
+* **Install Node.Js and VS Code**
+
+* Down load  Node js (LTS) from https://nodejs.org/en/download/
+
+![image](https://user-images.githubusercontent.com/40323661/153038729-c02fa3c5-dbe0-4534-aa40-5edc9159a3d9.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153038984-a894fa5f-4077-4664-bca8-bed0f9d03043.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/153039081-677f494c-61db-4e4d-86b0-c65f4adf21ec.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/153039109-6692b107-04a4-4eec-9864-61b616ae9e96.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/153039161-fea0292f-718e-43e0-b4d0-678bae84b36e.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/153039319-a0f11f3b-bf11-4138-a551-fc9ef7977890.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153039487-adafb15f-fbab-41df-ab22-497d4f2fabeb.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153039626-5a557d69-ee25-4d15-b50f-0d1fed6bacf6.png)
+
+
+
+* Down load VS-Code from https://code.visualstudio.com/
 ![image](https://user-images.githubusercontent.com/40323661/153036796-9cee6e19-6256-49f9-accd-ec60b4433f4d.png)
 
 * Double click on that
