@@ -7,6 +7,12 @@
    * JavaScript global variable
 * JavaScript Identifiers
 * Javascript Operators
+  * Arithmetic Operators
+  * Comparison Operators
+  * Logical Operators
+  * Assignment Operators
+  * Conditional Operators
+  * Ternary Operator
 
 
 #### JavaScript Statements
@@ -356,6 +362,115 @@ b();
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/153710369-2b39b1ad-f591-40e1-a670-c1a3736f745f.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710374-b25fbfe8-7908-4abc-8d5f-fd3bb7973026.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710380-43abae8f-e649-4147-a331-8f48c8ab9ab9.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Logical Operators</h1>
+	
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<p id="p5"></p>
+
+	<script>
+		var a = 5, b = 10;
+
+		document.getElementById("p1").innerHTML = (a != b) && (a < b); 
+
+		document.getElementById("p2").innerHTML = (a > b) || (a == b);
+
+		document.getElementById("p3").innerHTML = (a < b) || (a == b);
+
+		document.getElementById("p4").innerHTML = !(a < b);
+
+		document.getElementById("p5").innerHTML = !(a > b);
+
+    </script>
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/153710397-817504ad-ddcc-4789-8e6e-0d56dac6d135.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710407-d9600ea4-aee3-4ac4-b4e3-7ad56324e2c9.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710417-5c4402a2-2532-4d68-bf39-c14971fde791.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Example: JavaScript Assignment Operators</h1>
+	
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<p id="p5"></p>
+	<p id="p6"></p>
+	
+	<script>
+		var x = 5, y = 10;
+
+		x = y;
+		document.getElementById("p1").innerHTML = x;
+
+		x += 1;
+		document.getElementById("p2").innerHTML = x;
+
+		x -= 1;
+		document.getElementById("p3").innerHTML = x;
+
+		x *= 5;
+		document.getElementById("p4").innerHTML = x;
+
+		x /= 5;
+		document.getElementById("p5").innerHTML = x;
+
+		x %= 2;
+		document.getElementById("p6").innerHTML = x;
+
+    </script>
+</body>
+```
+![image](https://user-images.githubusercontent.com/40323661/153710444-eed59191-2a7a-47f3-8c70-53d0b42fba02.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710457-e0c52c70-b8c1-4d20-8981-7da9b406ef86.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710465-f9f0c51b-a9e2-42c3-a181-da79a9723567.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Ternary Operators</h1>
+	
+	<p id="p1"></p>
+	<p id="p2"></p>
+	
+	<script>
+		var a = 10, b = 5;
+
+		var c = a > b? a : b; 
+		var d = a > b? b : a; 
+
+		document.getElementById("p1").innerHTML = c;
+
+		document.getElementById("p2").innerHTML = d;
+
+    </script>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/153710495-a1a61380-5889-4b79-96e1-45fd43788dae.png)
 
 
 
