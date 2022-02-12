@@ -243,7 +243,118 @@ b();
 
 ```
 
-![image](https://user-images.githubusercontent.com/40323661/153710151-0b350817-6e74-4285-8052-af2f2ebaa957.png)
+![image](https://user-images.githubusercontent.com/40323661/153710214-800303eb-bd03-466d-93a5-154d3fe62af5.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript ++ and -- Operators</h1>
+	<p>x = 5;</p>
+	<p id="p1">x++=</p>
+	<p id="p2">x=</p>
+	<p id="p3">++x=</p>
+	<p id="p4">x--=</p>
+	<p id="p5">x=</p>
+	<p id="p6">--x=</p>
+	
+	<script>
+		var x = 5;
+
+		document.getElementById("p1").innerHTML += x++; //post increment
+		document.getElementById("p2").innerHTML += x;   // value changes here
+
+		document.getElementById("p3").innerHTML += ++x; //pre increment & value changes here
+
+		document.getElementById("p4").innerHTML += x--; //post decrement
+		document.getElementById("p5").innerHTML += x; //value changes here
+
+		document.getElementById("p6").innerHTML += --x; //pre decrement and value changes here
+
+    </script>
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/153710240-8cb08c06-2e63-40ba-9f9e-86fd9887cbdd.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710250-ca105fd4-e4f2-485d-96b0-12aef9a5dee2.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript + Operator</h1>
+	
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<p id="p5"></p>
+	
+	<script>
+		var a = 5, b = "Hello ", c = "World!", d = 10;
+
+		document.getElementById("p1").innerHTML = a + b; 
+
+		document.getElementById("p2").innerHTML = b + c; 
+
+		document.getElementById("p3").innerHTML = a + d; 
+
+		document.getElementById("p4").innerHTML = b + true; 
+    
+		document.getElementById("p5").innerHTML = c - b; 
+
+	</script>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/153710282-c52bdb7a-04b9-4bfa-8a85-88916494878d.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710290-f90762e2-1aed-4d2d-9fc1-b0a4601d4b55.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710297-3dfb3ba3-5e6a-4a3a-8560-2f76d0a20c95.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Comparison Operators</h1>
+	<p>
+		var a = 5, b = 10, c = "5", x = a;
+	</p>
+
+	<p id="p1">a == c returns </p>
+	<p id="p2">a === c returns </p>
+	<p id="p3">a == x returns </p>
+	<p id="p4">a != b returns </p>
+	<p id="p5">a > b returns </p>
+	<p id="p6">a < b returns </p>
+	<p id="p7">a >= b returns </p>
+	<p id="p8">a <= b returns </p>
+	
+	<script>
+		var a = 5, b = 10, c = "5", x = a;
+
+		document.getElementById("p1").innerHTML += a == c;
+
+		document.getElementById("p2").innerHTML += a === c;
+
+		document.getElementById("p3").innerHTML += a == x;
+
+		document.getElementById("p4").innerHTML += a != b;
+
+		document.getElementById("p5").innerHTML += a > b;
+
+		document.getElementById("p6").innerHTML += a < b;
+
+		document.getElementById("p7").innerHTML += a >= b;
+
+		document.getElementById("p8").innerHTML += a <= b;
+    </script>
+</body>
+</html>
+```
 
 
 
