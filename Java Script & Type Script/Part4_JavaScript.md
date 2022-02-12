@@ -2,6 +2,12 @@
 
 * JavaScript Statements
 * JavaScript Variables
+   * JavaScript Variable
+   * JavaScript local variable
+   * JavaScript global variable
+* JavaScript Identifiers
+* Javascript Operators
+
 
 #### JavaScript Statements
 
@@ -153,6 +159,91 @@ document.getElementById("demo").innerHTML =
 </body>
 </html>
 ```
+![image](https://user-images.githubusercontent.com/40323661/153709610-c3c8541c-71b9-4ec3-b22e-6a1a48535994.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153709632-cfa5d529-7a39-4ed8-acf1-cd8a5ad64e3a.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153709661-01af816c-800f-4dd9-9722-a80f398e29af.png)
+
+#### JavaScript local variable
+
+* A JavaScript local variable is declared inside block or function. It is accessible within the function or block only. For example:
+
+![image](https://user-images.githubusercontent.com/40323661/153709745-c6e02bc4-5bdc-434e-b920-b1abad716ef7.png)
+
+#### JavaScript global variable
+
+* A **JavaScript global variable** is accessible from any function. A variable i.e. declared outside the function or declared with window object is known as global variable. 
+* For example:
+
+```JavaScript
+<html>
+<body>
+<script>  
+var data=200;//gloabal variable  
+function a(){  
+document.writeln(data);  
+}  
+function b(){  
+document.writeln(data);  
+}  
+a();//calling JavaScript function
+b();
+  
+</script>  
+</body>
+</html>
+
+```
+
+#### Javascript Operators
+
+![image](https://user-images.githubusercontent.com/40323661/153710067-af0619a6-758e-441a-8d9e-0d6354feab5d.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710084-efcd28c9-1bae-474a-b7d2-a81e5451578a.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153710098-e3e7ac8e-e6dd-4184-9212-ed3e318b77e3.png)
+
+* The following example demonstrates how arithmetic operators perform different tasks on operands.
+
+![image](https://user-images.githubusercontent.com/40323661/153710132-95d3e879-ca00-4ff6-9868-f4191fffab74.png)
+
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Arithmatic Operators</h1>
+	<p>x = 5, y = 10, z;</p>
+	<p id="p1">x+y=</p>
+	<p id="p2">y-x=</p>
+	<p id="p3">x*y=</p>
+	<p id="p4">y/x=</p>
+	<p id="p5">x%2=</p>
+	
+	<script>
+		var x = 5, y = 10;
+		var z = x + y
+		document.getElementById("p1").innerHTML += z; //returns 15
+
+		z = y - x;
+		document.getElementById("p2").innerHTML += z; //returns 5
+
+		z = x * y;
+		document.getElementById("p3").innerHTML += z; //returns 50
+
+		z = y / x;
+		document.getElementById("p4").innerHTML += z; //returns 2
+
+		z = x % 2;
+		document.getElementById("p5").innerHTML += z; //returns 1
+    </script>
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/153710151-0b350817-6e74-4285-8052-af2f2ebaa957.png)
 
 
 
