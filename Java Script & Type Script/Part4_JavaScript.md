@@ -129,6 +129,30 @@ document.getElementById("demo").innerHTML =
 
 ![image](https://user-images.githubusercontent.com/40323661/153709521-b17d08b6-a2e5-404d-ba30-dd14e3b382ed.png)
 
+![image](https://user-images.githubusercontent.com/40323661/153709545-6f0473c7-decd-45f2-bde2-6a90d0a58a7c.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Variables</h1>
+
+<p>In this example, price, price2, and total are variables.</p>
+
+<p id="demo"></p>
+
+<script>
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+document.getElementById("demo").innerHTML =
+"The total is: " + total;
+</script>
+
+</body>
+</html>
+```
 
 
 
