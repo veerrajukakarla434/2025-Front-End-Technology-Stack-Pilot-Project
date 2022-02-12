@@ -14,7 +14,6 @@
   * Conditional Operators
   * Ternary Operator
 
-
 #### JavaScript Statements
 
 * A computer program is a list of "instructions" to be "executed" by a computer.
