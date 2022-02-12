@@ -1,5 +1,7 @@
 # JavaScript Basics OR JavaScript Fundamentals
 
+* **From This Session What are the learning outcomes**
+
 * JavaScript Statements
 * JavaScript Variables
    * JavaScript Variable
