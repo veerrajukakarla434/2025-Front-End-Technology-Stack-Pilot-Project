@@ -195,6 +195,30 @@
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/153753102-a888cd44-405f-4483-9b0b-bd47b9f77fb4.png)
+
+![image](https://user-images.githubusercontent.com/40323661/153753114-6647c049-190c-46f3-b9e1-99b5742bc0c6.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: Quotes in String</h1>
+	
+	<p id="p1"></p>
+	<p id="p2"></p>
+	
+	<script>
+		var str1 = "This is \"simple\" string";
+
+		var str2 = 'This is \'simple\' string';
+
+		document.getElementById("p1").innerHTML = str1;
+		document.getElementById("p2").innerHTML = str2;
+    </script>
+</body>
+</html>
+```
 
 
 
