@@ -59,3 +59,13 @@
 ![image](https://user-images.githubusercontent.com/40323661/153751242-fced1d55-b7fe-4588-a6a7-c07d0bd3ccae.png)
 
 ![image](https://user-images.githubusercontent.com/40323661/153751358-f3e8edd9-1707-4015-84ba-0f57de5c2c62.png)
+
+#### JavaScript String Literals, Objects, Concatenation, Comparison
+
+* The Number is a primitive data type used for positive or negative integer, float, binary, octal, hexadecimal, and exponential values in JavaScript.
+
+* The Number type in JavaScript is double-precision 64 bit binary format like double in C# and Java. It follows the international IEEE 754 standard.
+
+* The first character in a number type must be an integer value, and it must not be enclosed in quotation marks. The following example shows the variables having different types of numbers in JavaScript.
+
+
