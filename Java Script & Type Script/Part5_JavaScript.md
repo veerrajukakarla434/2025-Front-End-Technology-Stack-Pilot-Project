@@ -1,10 +1,17 @@
 ## JavaScript Basics OR JavaScript Fundamentals
 
 * Javascript Data Types
-  * 
-
-
-
+  * String
+      * String Object & String String literals 
+      * String Methods & Properties
+  * Number
+  * BigInt
+  * Boolean
+  * Null
+  * UnDefined
+  * Object
+  * Date
+  * Array
 
 #### Javascript Data Types
 
