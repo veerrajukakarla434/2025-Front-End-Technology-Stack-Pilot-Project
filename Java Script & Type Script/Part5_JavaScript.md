@@ -246,5 +246,59 @@
 </body>
 </html>
 ```
+* Be careful while working with String object because comparison of string objects using == operator compares String objects and not the values. 
+* Consider the following example.
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: String object comparison</h1>
+	
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<p id="p5"></p>
+	
+	<script>
+		var str1 = new String('Hello World');
+		var str2 = new String('Hello World');
+		var str3 = 'Hello World';
+		var str4 = str1;
+
+		document.getElementById("p1").innerHTML = str1 == str2; 
+		document.getElementById("p2").innerHTML = str1 == str3; 
+		document.getElementById("p3").innerHTML = str1 === str4; 
+		document.getElementById("p4").innerHTML = typeof(str1);
+		document.getElementById("p5").innerHTML = typeof(str3); 
+    </script>
+</body>
+</html>
+
+![image](https://user-images.githubusercontent.com/40323661/154826361-4c2fde7a-9d97-4eee-a521-8fca54518901.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154826374-c9f2ebe5-dd93-4679-922e-6785f00f9a68.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Properties</h2>
+
+<p>The length property returns the length of a string:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+
+</body>
+</html>
+```
+
+
+
 
 
