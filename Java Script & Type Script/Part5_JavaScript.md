@@ -4,6 +4,7 @@
   * String
       * String Object & String String literals 
       * String Methods & Properties
+         * 123
   * Number
   * BigInt
   * Boolean
