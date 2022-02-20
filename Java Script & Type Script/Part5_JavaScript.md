@@ -1,6 +1,7 @@
 ## JavaScript Basics OR JavaScript Fundamentals
 
 * Javascript Data Types
+  * 
 
 
 
@@ -298,7 +299,12 @@ document.getElementById("demo").innerHTML = text.length;
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/154826793-7bddf389-6d38-4e61-ac7e-1942ee151ae7.png)
 
+#### JavaScript String Methods
+ 
+ * String methods help you to work with strings.
 
+![image](https://user-images.githubusercontent.com/40323661/154826830-462a9b8b-4eed-43e2-9047-18163c664574.png)
 
 
