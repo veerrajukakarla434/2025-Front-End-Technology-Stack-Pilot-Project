@@ -689,6 +689,181 @@ console.log(bigBin);
 
 ![image](https://user-images.githubusercontent.com/40323661/154971067-3570c435-b48e-486a-93a2-f69a0f4b1296.png)
 
+![image](https://user-images.githubusercontent.com/40323661/154972221-472ac13a-afcb-4f90-b7cc-4d84bbdfa298.png)
+
+```javaScript
+<html>
+<body>
+<script>  
+emp={id:102,name:"Shyam Kumar",salary:40000}  
+document.write(emp.id+" "+emp.name+" "+emp.salary);  
+</script>
+</body>
+</html>
+
+```
+![image](https://user-images.githubusercontent.com/40323661/154972371-5e9f5947-0438-4461-8187-d7eb22884ee3.png)
+
+```JavaScript
+<html>
+<body>
+<script>  
+var emp=new Object();  
+emp.id=101;  
+emp.name="Ravi Malik";  
+emp.salary=50000;  
+document.write(emp.id+" "+emp.name+" "+emp.salary);  
+</script> 
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154972709-9081c0a9-bace-46bd-9098-f912c798d4ca.png)
+```JavaScript
+<html>
+<body>
+<script>  
+function emp(id,name,salary){  
+this.id=id;  
+this.name=name;  
+this.salary=salary;  
+}  
+e=new emp(103,"Vimal Jaiswal",30000);  
+  
+document.write(e.id+" "+e.name+" "+e.salary);  
+</script>  
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154973956-3c3ba1b2-e3c5-4d4c-9877-140b5fc9b5a8.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Object</h1>
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<p id="p5"></p>
+	
+	<script>
+		var person = { 
+                firstName: "James", 
+                lastName: "Bond", 
+                age: 25, 
+                getFullName: function () { 
+                    return this.firstName + ' ' + this.lastName 
+                    } 
+            };
+
+		document.getElementById("p1").innerHTML = person.firstName; 
+		document.getElementById("p2").innerHTML = person.lastName; 
+
+		document.getElementById("p3").innerHTML = person["firstName"];
+		document.getElementById("p4").innerHTML = person["lastName"];
+
+		document.getElementById("p5").innerHTML = person.getFullName();
+
+    </script>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154974763-729fe80a-4dd9-4414-a631-7f048fd2292d.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154974828-2244dd7d-1b2b-4b65-9607-d62f41d265c9.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Object</h1>
+	<p id="p1"></p>
+	
+	<script>
+		var person = new Object();
+    
+		if(person.hasOwnProperty("firstName")){
+          	document.getElementById("p1").textContent = person.firstName;
+		}
+		else{
+        	document.getElementById("p1").textContent = "No firstName property exists";
+		}
+    </script>
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/154974974-85c0944c-4b3b-4645-9c32-89ae62cbdc81.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Nested Object</h1>
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<p id="p5"></p>
+	<p id="p6"></p>
+	
+	<script>
+		var p1 = new Object();
+		p1.firstName = "James";
+		p1.lastName  = "Bond"; 
+
+		var p2 = new Object();
+
+		document.getElementById("p1").textContent = p2.firstName; 
+		document.getElementById("p2").textContent = p2.lastName; 
+		
+		p3 = p1; // assigns object 
+		p3.firstName; // James
+		p3.lastName; // Bond
+		
+		document.getElementById("p3").textContent = p3.firstName; 
+		document.getElementById("p4").textContent = p3.lastName; 
+		
+		p3.firstName = "Sachin"; // assigns new value
+		p3.lastName = "Tendulkar"; // assigns new value
+
+		document.getElementById("p5").textContent = p3.firstName; 
+		document.getElementById("p6").textContent = p3.lastName; 
+		
+		
+    </script>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154975388-ca6244d7-c7c5-4d1a-9edc-74586c3a6bb9.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Object using for-in Loop</h1>
+	
+	<script>
+		var person = new Object();
+		person.firstName = "James";
+		person.lastName = "Bond";
+
+		for(var prop in person){
+				alert(prop);  // access property name
+				alert(person[prop]); // access property value
+			};
+
+    </script>
+</body>
+</html>
+```
+
+
+
 
 
 
