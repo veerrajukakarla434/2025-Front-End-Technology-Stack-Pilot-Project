@@ -516,5 +516,54 @@ document.writeln(str.substring(5));
 </html>
 ```
 
+#### JavaScript Number Object
+
+![image](https://user-images.githubusercontent.com/40323661/154883107-08f6e01e-c3c4-4969-a797-60a2852fc2ac.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var x=102;//integer value  
+var y=102.7;//floating point value  
+var z=13e4;//exponent value, output: 130000  
+var n=new Number(16);//integer value by number object  
+document.write(x+" "+y+" "+z+" "+n);
+</script>
+</body>
+</html>
+```
+
+#### ES10 - Bigint type
+
+![image](https://user-images.githubusercontent.com/40323661/154883418-a640fc47-2f3e-4770-a81a-3e519a725d6c.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/154883726-ee74823e-e2cb-4d1e-a108-db6961b1a744.png)
+
+
+```JavaScript
+// Parameter in decimal format
+var bigNum = BigInt(
+"123422222222222222222222222222222222222");
+console.log(bigNum);
+
+// Parameter in hexadecimal format
+var bigHex = BigInt("0x1ffffffeeeeeeeeef");
+console.log(bigHex);
+
+// Parameter in binary format
+var bigBin = BigInt(
+"0b1010101001010101001111111111111111");
+console.log(bigBin);
+
+```
+
+#### JavaScript Boolean
+
+![image](https://user-images.githubusercontent.com/40323661/154883901-9a77b959-06c2-45a3-8b34-dda412c23cee.png)
+
+
 
 
