@@ -319,9 +319,202 @@ document.getElementById("demo").innerHTML = text.length;
 ![image](https://user-images.githubusercontent.com/40323661/154826793-7bddf389-6d38-4e61-ac7e-1942ee151ae7.png)
 
 #### JavaScript String Methods
- 
+
+ * The **JavaScript string** is an object that represents a sequence of characters.
  * String methods help you to work with strings.
 
-![image](https://user-images.githubusercontent.com/40323661/154826830-462a9b8b-4eed-43e2-9047-18163c664574.png)
+![image](https://user-images.githubusercontent.com/40323661/154878895-3eb216af-646f-4d33-a01d-c21fd1007e7c.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879006-4b3464fd-13e5-4983-9712-312121478ad8.png)
+
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+let str="javascript";  
+document.write(str.charAt(2));  
+</script>  
+</body>
+</html>
+
+```
+![image](https://user-images.githubusercontent.com/40323661/154879039-7aedf0e1-f46d-4854-ac93-118b3a13a575.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879076-8d710ae0-238f-4fd4-bf3b-f8447f8ce684.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var s1="javascript ";  
+var s2="concat example";  
+var s3=s1+s2;  
+document.write(s3);  
+</script>  
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154879193-58878f60-d4af-4351-a097-301e47136b41.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879232-2d703eee-a278-4396-b243-4edcf9cc03aa.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var s1="javascript from javatpoint indexof";  
+var n=s1.indexOf("i");  
+document.write(n);  
+</script>  
+</body>
+</html>
+
+```
+![image](https://user-images.githubusercontent.com/40323661/154879363-60f408b2-cad1-46b1-884f-acf88296759e.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879380-7421c91c-e1a5-43e8-a567-d0ce90230407.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var s1="javascript from javatpoint indexof";  
+var n=s1.lastIndexOf("java");  
+document.write(n);  
+</script>  
+</body>
+</html>
+
+```
+![image](https://user-images.githubusercontent.com/40323661/154879544-1cda1444-3b06-46d2-9f87-17a70d124614.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879580-c867cb2a-df13-4272-a3bb-5705972ee22d.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var s1="JavaScript toLowerCase Example";  
+var s2=s1.toLowerCase();  
+document.write(s2);  
+</script>  
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154879691-56dd2bb6-85c7-4d8e-8b57-93dca3881d1d.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879733-4ee906d5-16e7-4e63-8593-5cf9efd08411.png)
+
+```Java
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var s1="JavaScript toUpperCase Example";  
+var s2=s1.toUpperCase();  
+document.write(s2);  
+</script>  
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154879811-84e7b60a-06fa-4518-a37e-1998312643ff.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879881-4ef46a14-f22b-408a-843b-7ffd8a64652a.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var s1="abcdefgh";  
+var s2=s1.slice(2,5);  
+document.write(s2);  
+</script>  
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154879957-9e2809ea-f9e8-41e8-8884-04cd6b3c7b32.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154879984-8bf81498-e6b8-468f-a0c0-0f5bc5b28f84.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var s1="     javascript trim    ";  
+var s2=s1.trim();  
+document.write(s2);  
+</script>  
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154880983-976156cf-b45c-4eed-9a17-33c31cc6c576.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var str="This is JavaTpoint website";  
+document.write(str.split(" ")); //splits the given string.  
+//document.write(str.split(" ", 4)); //splits the given string.  
+</script>  
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154881582-4ddabe2d-5aed-4093-9386-14189db781f0.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154881677-9553c864-2e65-4c32-ad71-0223926ed4e3.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154881720-7bce60fe-a729-416f-b282-5e4699a988a3.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154881763-3464ba45-fda4-44ee-8b89-1d218ee5cf4b.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var str="Javatpoint";
+document.writeln(str.substring(0,4));
+</script>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154881833-82053933-87d9-494a-ae24-df5d4a3eca8f.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154881865-84d0d891-da26-4c56-84b8-5776efeb715c.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var str="Javatpoint";
+document.writeln(str.substring(5));
+</script>
+
+</body>
+</html>
+```
+
 
 
