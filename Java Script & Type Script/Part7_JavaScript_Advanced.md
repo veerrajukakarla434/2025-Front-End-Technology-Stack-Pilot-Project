@@ -1,7 +1,6 @@
 ## JavaScript Advanced
 
  * JavaScript TypedArray
- * JavaScript TypedArray
  * JavaScript Set
   
     * Set add() method
