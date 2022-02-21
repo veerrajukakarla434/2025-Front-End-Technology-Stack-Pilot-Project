@@ -862,8 +862,137 @@ document.write(e.id+" "+e.name+" "+e.salary);
 </html>
 ```
 
+#### JavaScript Date Object
+
+![image](https://user-images.githubusercontent.com/40323661/154976479-5bd21208-380d-49fd-8e07-82c398d47343.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154976674-df12eea6-f8cb-47da-963b-2436df19c4be.png)
+
+```JavaScript
+<html>
+<body>
+Current Date and Time: <span id="txt"></span>  
+<script>  
+var today=new Date();  
+document.getElementById('txt').innerHTML=today;  
+</script>  
+</body>
+</html>
+
+===========================================================
+Let's see another code to print date/month/year.
+
+<script>  
+var date=new Date();  
+var day=date.getDate();  
+var month=date.getMonth()+1;  
+var year=date.getFullYear();  
+document.write("<br>Date is: "+day+"/"+month+"/"+year);  
+</script> 
+=========================================================
+
+```
+![image](https://user-images.githubusercontent.com/40323661/154976999-5e687d07-c399-4f2d-82a6-87f44290ecf6.png)
+
+```JavaScript
+<html>
+<body>
+Current Time: <span id="txt"></span>
+<script>
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+</script>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154977282-325b4551-450a-456d-ad31-51d1c8c3f1af.png)
+
+```JavaScript
+<html>
+<body>
+Current Time: <span id="txt"></span>  
+<script>  
+window.onload=function(){getTime();}
+function getTime(){  
+var today=new Date();  
+var h=today.getHours();  
+var m=today.getMinutes();  
+var s=today.getSeconds();  
+// add a zero in front of numbers<10  
+m=checkTime(m);  
+s=checkTime(s);  
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;  
+setTimeout(function(){getTime()},1000);  
+}  
+//setInterval("getTime()",1000);//another way  
+function checkTime(i){  
+if (i<10){  
+  i="0" + i;  
+ }  
+return i;  
+}  
+</script>  
+</body>
+</html>
+
+```
+
+#### JavaScript Array
+![image](https://user-images.githubusercontent.com/40323661/154977802-ecca2b17-cba6-4378-ad0e-a9e8e3395140.png)
+
+![image](https://user-images.githubusercontent.com/40323661/154977852-8aed01ec-c1fb-4621-ae9d-97c657d34734.png)
 
 
+```JavaScript
+<html>
+<body>
+<script>  
+var emp=["Sonoo","Vimal","Ratan"];  
+for (i=0;i<emp.length;i++){  
+document.write(emp[i] + "<br/>");  
+}  
+</script>  
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/154978335-bdc11a0a-54e6-44e6-a818-4be0af099228.png)
 
+![image](https://user-images.githubusercontent.com/40323661/154978392-1fe788f8-3f52-456c-b481-a2802c1d5b53.png)
+
+```JavaScript
+<html>
+<body>
+<script>  
+var i;  
+var emp = new Array();  
+emp[0] = "Arun";  
+emp[1] = "Varun";  
+emp[2] = "John";  
+  
+for (i=0;i<emp.length;i++){  
+document.write(emp[i] + "<br>");  
+}  
+</script>  
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/154978553-193d2bf8-2a67-4014-83b0-4f5c7d7b186d.png)
+
+```JavaScript
+<html>
+<body>
+<script>  
+var emp=new Array("Jai","Vijay","Smith");  
+for (i=0;i<emp.length;i++){  
+document.write(emp[i] + "<br>");  
+}  
+</script>  
+</body>
+</html>
+```
 
 
