@@ -3,6 +3,14 @@
  * JavaScript TypedArray
  * JavaScript TypedArray
  * JavaScript Set
+  
+    * Set add() method
+    * Set clear() method
+    * Set delete() method
+    * Set entries() method
+    * Set forEach() method
+    * Set has() method
+    * Set values() method
  * JavaScript Map
    * Map clear() method
    * Map delete() method
