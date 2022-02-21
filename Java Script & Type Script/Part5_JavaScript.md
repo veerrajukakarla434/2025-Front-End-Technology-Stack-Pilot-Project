@@ -562,7 +562,132 @@ console.log(bigBin);
 
 #### JavaScript Boolean
 
-![image](https://user-images.githubusercontent.com/40323661/154883901-9a77b959-06c2-45a3-8b34-dda412c23cee.png)
+![image](https://user-images.githubusercontent.com/40323661/154969160-a58e442f-6f17-4642-8b3a-cc9265597fde.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Boolean</h1>
+	<script>
+		var YES = true;
+		var NO = false;
+
+		alert(YES);
+		alert(NO);
+    </script>
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/154969303-e4a23994-82aa-4b2e-9569-122dac09fee9.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Boolean</h1>
+	<p id="p1">1 > 2 = </p>
+	<p id="p2">a < b = </p>
+	<p id="p3">a > b = </p>
+	<p id="p4">a + 20 > b + 5 = </p>
+	<script>
+		var a = 10, b = 20;
+
+		var result = 1 > 2; // false
+		document.getElementById("p1").textContent += result;
+
+		result = a < b; // true
+		document.getElementById("p2").textContent += result;
+
+		result = a > b; // false
+		document.getElementById("p3").textContent += result;
+
+		result = a + 20 > b + 5; // true
+		document.getElementById("p4").textContent += result;
+	</script>
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/154969508-969601ce-2b4b-4762-8d1c-0544f1241080.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Boolean</h1>
+	<p id="p1">Boolean('Hello') returns  </p>
+	<p id="p2">Boolean('h') returns  </p>
+	<p id="p3">Boolean('10') returns  </p>
+	<p id="p4">Boolean([]) returns </p>
+	<p id="p5">Boolean(a + b) returns </p>
+	
+	<script>
+		var a = 10, b = 20;
+
+		var b1 = Boolean('Hello'); // true
+
+		var b2 = Boolean('h'); // true
+
+		var b3 = Boolean(10); // true
+
+		var b4 = Boolean([]); // true
+
+		var b5 = Boolean(a + b); // true
+		
+		document.getElementById("p1").textContent += b1;
+		document.getElementById("p2").textContent += b2;
+		document.getElementById("p3").textContent += b3;
+		document.getElementById("p4").textContent += b4;
+		document.getElementById("p5").textContent += b5;
+	</script>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/154969843-2554634c-3870-404d-a268-13b7db4175f1.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Boolean Object</h1>
+	<script>
+		var bool = new Boolean(true);
+
+		alert(bool); // true
+    </script>
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/154970025-e4ceb8e7-3cdf-4338-acd1-0290ca334edf.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Boolean</h1>
+	<p id="p1">b1 = </p>
+	<p id="p2">b2 = </p>
+	<script>
+		var b1 = new Boolean(true);
+		var b2 = true;
+
+		document.getElementById("p1").textContent += typeof b1;
+		document.getElementById("p2").textContent += typeof b2;
+	</script>
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/154970499-a9db8702-d9b4-41b9-bcf1-77f3e16e78c9.png)
+
+
+#### JavaScript Objects
+
+* A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike, chair, glass, keyboard, monitor etc.
+* JavaScript is an object-based language. Everything is an object in JavaScript.
+* JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
+
+![image](https://user-images.githubusercontent.com/40323661/154971067-3570c435-b48e-486a-93a2-f69a0f4b1296.png)
 
 
 
