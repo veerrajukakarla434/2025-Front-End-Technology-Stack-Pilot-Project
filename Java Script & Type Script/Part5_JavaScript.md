@@ -4,7 +4,16 @@
   * String
       * String Object & String String literals 
       * String Methods & Properties
-         * 123
+         *  JavaScript String charAt(index) Method
+         *  JavaScript String concat(str) Method
+         *  JavaScript String indexOf(str) Method
+         *  JavaScript String lastIndexOf(str) Method
+         *  JavaScript String toLowerCase() Method
+         *  JavaScript String toUpperCase() Method
+         *  JavaScript String slice(beginIndex, endIndex) Method
+         *  JavaScript String trim() Method
+         *  JavaScript String split() Method
+         *  JavaScript String substring()
   * Number
   * BigInt
   * Boolean
