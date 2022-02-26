@@ -351,7 +351,7 @@ document.write(str.charAt(2));
 <script>  
 var s1="javascript ";  
 var s2="concat example";  
-var s3=s1+s2;  
+let s3= s1.concat(s2); 
 document.write(s3);  
 </script>  
 </body>
