@@ -393,8 +393,220 @@ document.getElementById("demo").innerHTML = txt;
 </html>
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/155842724-58fc0249-3237-4a09-8497-a6dc9274f5dd.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For In</h2>
+<p>The for in statement can loops over array values:</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+for (let x in numbers) {
+  txt += numbers[x] + "<br>"; 
+}
+
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/40323661/155842799-27693519-59bd-46a0-b776-cf74abc077ed.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155842820-b68a2669-b59c-4c07-8872-0761f8698fc9.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array.forEach()</h2>
+<p>Calls a function once for each array element.</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+
+function myFunction(value, index, array) {
+  txt += value + "<br>"; 
+}
+</script>
+
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/155842872-a56a89e5-8e6b-406a-a9ae-b77c14d2de22.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array.forEach()</h2>
+<p>Calls a function once for each array element.</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+
+function myFunction(value) {
+  txt += value + "<br>"; 
+}
+</script>
+
+</body>
+</html>
+
+```
+
+#### The For Of Loop
+
+![image](https://user-images.githubusercontent.com/40323661/155842917-5b0b651c-21e6-4aed-b349-99fb96e6ddd0.png)
 
 
+![image](https://user-images.githubusercontent.com/40323661/155842935-e92fe670-9ee8-4091-8d88-afcec922f338.png)
 
+
+![image](https://user-images.githubusercontent.com/40323661/155842956-efb48ba1-9dd9-4833-9357-ff894e6a6a8f.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Of Loop</h2>
+<p>The for of statement loops through the values of any iterable object:</p>
+
+<p id="demo"></p>
+
+<script>
+const cars = ["BMW", "Volvo", "Mini"];
+
+let text = "";
+for (let x of cars) {
+  text += x + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+```
+
+
+![image](https://user-images.githubusercontent.com/40323661/155842977-796448d3-9305-4515-9472-7a17762977e7.png)
+
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Of Loop</h2>
+
+<p>The for of statement loops through the values of an iterable object.</p>
+
+<p id="demo"></p>
+
+<script>
+let language = "JavaScript";
+
+let text = "";
+for (let x of language) {
+  text += x + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+
+```
+
+
+#### The While Loop
+
+* The **while** loop and the **do/while** loop are explained  Below
+
+
+![image](https://user-images.githubusercontent.com/40323661/155843046-af5b8a1e-bf7e-4c20-8739-1d85ad37b05f.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155843060-49241379-9931-4ad2-a2eb-3595277cad40.png)
+
+
+```Java
+<!DOCTYPE html>
+<html>
+<body>
+<script>  
+var i=11;  
+while (i<=15)  
+{  
+document.write(i + "<br/>");  
+i++;  
+}  
+</script>  
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/155843108-c827ea1b-0910-4104-8da9-f19ad25c1c04.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155843118-5595d08e-8f7d-46c8-8168-fe11599fdb37.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155843125-4d2c0715-0863-40a3-93a2-0adbbfb05dd4.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Do While Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+let text = ""
+let i = 0;
+
+do {
+  text += "<br>The number is " + i;
+  i++;
+}
+while (i < 10);  
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+```
 
 
