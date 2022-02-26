@@ -1,4 +1,4 @@
-## JavaScript Loops & OOPS
+## JavaScript Loops & Control Statements 
 
 * JavaScript If-else
 * JavaScript Switch
@@ -7,18 +7,7 @@
    * while loop
    * do-while loop
    * for-in loop
-
-* JavaScript OOPs
-   * JavaScript Class
-   * JavaScript Object
-   * JavaScript Prototype
-   * JavaScript constructor Method
-   * JavaScript static Method
-   * JavaScript Encapsulation
-   * JavaScript Inheritance
-   * JavaScript Polymorphism
-   * JavaScript Abstraction
-
+   * 
 #### JavaScript If-else
 
 The **JavaScript if-else statement** is used to execute the code whether condition is true or false. There are three forms of if statement in JavaScript.
