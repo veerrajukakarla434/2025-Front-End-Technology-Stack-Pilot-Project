@@ -1,14 +1,14 @@
 ## JavaScript Advanced :- OOPS (Object-Oriented Programming System)
 
 * JavaScript OOPs
-   * JavaScript Class
-   * JavaScript Object  (We Already Done from previous session)
-   * JavaScript constructor Method
+   * JavaScript **Class** 
+   * JavaScript **Object**  (We Already Done from previous session)
    * JavaScript static Method
-   * JavaScript Encapsulation
-   * JavaScript Inheritance
-   * JavaScript Polymorphism
-   * JavaScript Abstraction
+   * JavaScript **Abstraction**
+   * JavaScript **Inheritance**
+   * JavaScript **Polymorphism**
+   * JavaScript **Encapsulation**
+   *  JavaScript constructor Method
 
  
 #### JavaScript Class
