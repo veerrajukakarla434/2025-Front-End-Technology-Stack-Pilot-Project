@@ -275,3 +275,7 @@ t.show();
 </html>
 ```
 
+#### JavaScript Abstraction
+
+
+
