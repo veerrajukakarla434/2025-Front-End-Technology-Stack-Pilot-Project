@@ -7,7 +7,7 @@
    * while loop
    * do-while loop
    * for-in loop
-   * 
+   * for-of loop
 #### JavaScript If-else
 
 The **JavaScript if-else statement** is used to execute the code whether condition is true or false. There are three forms of if statement in JavaScript.
