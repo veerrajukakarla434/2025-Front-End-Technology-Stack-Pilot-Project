@@ -170,7 +170,56 @@ document.getElementById("demo").innerHTML =
 
 ![image](https://user-images.githubusercontent.com/40323661/153709632-cfa5d529-7a39-4ed8-acf1-cd8a5ad64e3a.png)
 
+
+![image](https://user-images.githubusercontent.com/40323661/155880555-bfffc2db-fa08-4af1-b452-63eaedabe8e4.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880582-0f9d1529-3b0f-45b4-a1ea-81c755d9b20f.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880609-bf826cd1-04a1-408f-9ddc-25b111cd58ca.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/155880617-910013d8-d182-4224-ae8f-3e61a59f72a1.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880629-4b623180-ee3a-453e-a395-6f574aa364f5.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880690-9f69193a-d860-475f-8d31-33ae6209e712.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880699-943426aa-024d-4e38-a1a5-3f9ecd73e9a5.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880712-cd2f4f54-51a1-40db-99e3-b31584d626bd.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880719-430ba075-459a-4180-9b3e-f2e1b21b9bb3.png)
+
+![image](https://user-images.githubusercontent.com/40323661/155880727-9d65dd0d-3d83-4ad2-b79f-217618f535f4.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p>You can NOT reassign a constant object:</p>
+
+<p id="demo"></p>
+
+<script>
+try {
+  const car = {type:"Fiat", model:"500", color:"white"};
+  car = {type:"Volvo", model:"EX60", color:"red"};
+}
+catch (err) {
+  document.getElementById("demo").innerHTML = err;
+}
+</script>
+
+</body>
+</html>
+
+```
+
 ![image](https://user-images.githubusercontent.com/40323661/153709661-01af816c-800f-4dd9-9722-a80f398e29af.png)
+
 
 #### JavaScript local variable
 
