@@ -3,12 +3,12 @@
 * JavaScript OOPs
    * JavaScript **Class** 
    * JavaScript **Object**  (We Already Done from previous session)
-   * JavaScript static Method
+   * JavaScript **static Method**
    * JavaScript **Abstraction**
    * JavaScript **Inheritance**
    * JavaScript **Polymorphism**
    * JavaScript **Encapsulation**
-   *  JavaScript constructor Method
+   *  JavaScript **constructor Method**
 
  
 #### JavaScript Class
