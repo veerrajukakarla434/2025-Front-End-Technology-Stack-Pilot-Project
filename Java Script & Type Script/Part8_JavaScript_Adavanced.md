@@ -237,6 +237,104 @@ document.getElementById("demo").innerHTML = fruits.size;
 
 ```
 
+#### JSON - Introduction
+
+![image](https://user-images.githubusercontent.com/40323661/156368903-c9b69673-9535-4ad2-abad-1ffb90b94721.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156369102-2282ab34-b289-4c70-afd4-231fcd422d30.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156369146-928b91b1-c3b7-4589-88dc-3f9312faff48.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156369202-5c4df476-5e7d-4d5d-a012-12a03426df46.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156369472-e9c540ac-643f-4b7d-93d6-730772619870.png)
+
+#### JSON.parse()
+
+![image](https://user-images.githubusercontent.com/40323661/156369694-8bbfa13b-46df-4b4e-9386-2875762fa94d.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Creating an Object from a JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+const txt = '{"name":"John", "age":30, "city":"New York"}'
+const obj = JSON.parse(txt);
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+</script>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/156369819-e4ef3e02-fb51-4fa7-890d-d224aa3bdbdf.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Parsing a JSON Array.</h2>
+<p>Data written as an JSON array will be parsed into a JavaScript array.</p>
+<p id="demo"></p>
+
+<script>
+const text = '[ "Ford", "BMW", "Audi", "Fiat" ]';
+const myArr = JSON.parse(text);
+document.getElementById("demo").innerHTML = myArr[0];
+</script>
+
+</body>
+</html>
+```
+#### JSON.stringify()
+
+![image](https://user-images.githubusercontent.com/40323661/156370380-e8c31c02-d476-4f59-8b7b-199a29cb74de.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156370462-32e018ce-e195-4fc4-9c5d-b6ade6dc3d0f.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create a JSON string from a JavaScript object.</h2>
+<p id="demo"></p>
+
+<script>
+const obj = {name: "John", age: 30, city: "New York"};
+const myJSON = JSON.stringify(obj);
+document.getElementById("demo").innerHTML = myJSON;
+</script>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/40323661/156370566-f28b90f0-8593-4d47-a880-bf7f8ee9cd42.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156370601-e821b023-aad2-43d9-bf01-72d2a8147f44.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create a JSON string from a JavaScript array.</h2>
+<p id="demo"></p>
+
+<script>
+const arr = ["John", "Peter", "Sally", "Jane"];
+const myJSON = JSON.stringify(arr);
+document.getElementById("demo").innerHTML = myJSON;
+</script>
+
+</body>
+</html>
+```
 
 
 
