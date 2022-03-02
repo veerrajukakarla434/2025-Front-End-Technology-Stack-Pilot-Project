@@ -146,4 +146,43 @@ document.getElementById("demo").innerHTML = text;
 </html>
 
 ```
+#### JavaScript Maps
+
+![image](https://user-images.githubusercontent.com/40323661/156367344-2a59c672-57fa-45c0-ac5e-cbf7c36698d1.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/156367382-5b9d3c51-93fa-4156-8ba0-731c23353762.png)
+
+
+![image](https://user-images.githubusercontent.com/40323661/156367428-6d027d05-ede8-4958-80f0-2ce8f78de23e.png)
+
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Map Objects</h2>
+<p>Creating a Map from an Array:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create a Map
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+document.getElementById("demo").innerHTML = fruits.get("apples");
+</script>
+
+</body>
+</html>
+
+```
+![image](https://user-images.githubusercontent.com/40323661/156367536-120f1f49-2abe-4894-9021-44ff76510c83.png)
+
+```JavaScript
+
 
