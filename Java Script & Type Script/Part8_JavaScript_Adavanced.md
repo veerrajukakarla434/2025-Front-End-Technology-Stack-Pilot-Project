@@ -7,6 +7,8 @@
    * JSON.parse() method
    * JSON.stringify() method
 * JavaScript Function
+* JavaScript Global Reference
+
 
 #### JavaScript Set Object
 
@@ -365,6 +367,16 @@ function myFunction(a, b) {
 </body>
 </html>
 ```
+#### JavaScript Global Reference
+
+![image](https://user-images.githubusercontent.com/40323661/156372288-0cdb3bcd-a7a1-4370-b8e4-ce3eedda7627.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156372326-51bdb855-59d1-413e-97f7-85c2645bb677.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156372365-5f9e083e-597d-4dc2-aaf7-914d538abc96.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156372428-1ba4abf4-9168-476d-84b3-3527df7c92be.png)
+
 
 
 
