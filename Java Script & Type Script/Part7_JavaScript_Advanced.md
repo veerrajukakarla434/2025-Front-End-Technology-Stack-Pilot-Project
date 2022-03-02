@@ -8,9 +8,6 @@
    * JavaScript **Inheritance**
    * JavaScript **Abstraction**
    * JavaScript **Polymorphism**
-   * JavaScript **Encapsulation**
-   *  JavaScript **constructor Method**
-
  
 #### JavaScript Class
 
