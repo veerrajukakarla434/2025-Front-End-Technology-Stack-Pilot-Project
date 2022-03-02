@@ -2,8 +2,6 @@
 
 * JavaScript Set
  * JavaScript Map
-* JavaScript RegExp Object
-  * JavaScript RegExp
 * JavaScript JSON Object
    * JavaScript JSON
    * JSON.parse() method
