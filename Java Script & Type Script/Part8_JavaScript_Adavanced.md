@@ -184,5 +184,62 @@ document.getElementById("demo").innerHTML = fruits.get("apples");
 ![image](https://user-images.githubusercontent.com/40323661/156367536-120f1f49-2abe-4894-9021-44ff76510c83.png)
 
 ```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Map Objects</h2>
+<p>Using Map.set():</p>
+
+<p id="demo"></p>
+
+<script>
+// Create a Map
+const fruits = new Map();
+
+// Set Map Values
+fruits.set("apples", 500);
+fruits.set("bananas", 300);
+fruits.set("oranges", 200);
+
+document.getElementById("demo").innerHTML = fruits.get("apples");
+</script>
+
+</body>
+</html>
+
+```
+
+![image](https://user-images.githubusercontent.com/40323661/156368042-2d5353d1-cbc0-4b40-8a9e-766dc80c3c8c.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Maps</h2>
+<p>Deleting Map elements:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create a Map
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+// Delete an Element
+fruits.delete("apples");
+
+document.getElementById("demo").innerHTML = fruits.size;
+</script>
+
+</body>
+</html>
+
+```
+
+
+
 
 
