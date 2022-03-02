@@ -6,7 +6,7 @@
    * JavaScript JSON
    * JSON.parse() method
    * JSON.stringify() method
-
+* JavaScript Function
 
 #### JavaScript Set Object
 
@@ -330,6 +330,36 @@ document.getElementById("demo").innerHTML = myJSON;
 const arr = ["John", "Peter", "Sally", "Jane"];
 const myJSON = JSON.stringify(arr);
 document.getElementById("demo").innerHTML = myJSON;
+</script>
+
+</body>
+</html>
+```
+
+#### JavaScript Function
+
+![image](https://user-images.githubusercontent.com/40323661/156371568-2bae932a-c83c-4e9d-ac54-b400e7aae2bc.png)
+
+![image](https://user-images.githubusercontent.com/40323661/156371629-415bdc0b-5b19-4730-a39a-bd4c354ed10f.png)
+
+```JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a function which performs a calculation and returns the result:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = myFunction(4, 3);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
 </script>
 
 </body>
