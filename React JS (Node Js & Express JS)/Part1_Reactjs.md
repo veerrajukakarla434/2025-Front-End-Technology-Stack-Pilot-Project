@@ -17,7 +17,7 @@
 * Basic Form Handling
 
 
-* ----------------React Fundamentals---------------
+* **----------------React Fundamentals---------------**
   * Intro & Topics to learn in this video
   * Setup
   * Create React App
@@ -41,7 +41,7 @@
   * Update the State using setState()
   * useEffect React Hook
 
-* ------- React Router--------
+* **------- React Router--------**
   * React Router Intro 
   * Install React Router DOM package
   * Verify installed package
@@ -54,7 +54,7 @@
   * Pass data in route state
   * Access route state 
   
-* ------- React CRUD Axios--------
+* **------- React CRUD Axios--------**
   * Setting up JSON-SERVER
   * Understand Rest API convention
   * Create Contacts Resource
@@ -66,7 +66,7 @@
   * Create an Edit component
   * Edit Contact (UPDATE)
 
-* ------- React Search--------
+* **------- React Search--------**
 
   * Adding Search bar JSX
   * Adding useState Hook
