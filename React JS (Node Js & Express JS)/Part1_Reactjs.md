@@ -7,23 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/157073545-8d4da653-d5db-4f93-b06e-0c10cbc508a5.png)
 
-
-* 
-* React create-react-app
-* React Components
-   * Funtional Component
-   * Class Component
-* JSX
-* Props & State
-* useState
-* useEffect
-* React Components
-   * LifeCycle
-   * Methods
-* Conditional Rendering 
-* Lists & Keys
-* Basic Form Handling
-
+## React Fundamentals
 
 * **----------------React Fundamentals---------------**
   * Intro & Topics to learn in this video
@@ -49,6 +33,7 @@
   * Update the State using setState()
   * useEffect React Hook
 
+##  React Router
 * **------- React Router--------**
   * React Router Intro 
   * Install React Router DOM package
@@ -61,7 +46,8 @@
   * Use Link for route
   * Pass data in route state
   * Access route state 
-  
+
+##  React CRUD Axios
 * **------- React CRUD Axios--------**
   * Setting up JSON-SERVER
   * Understand Rest API convention
@@ -74,6 +60,7 @@
   * Create an Edit component
   * Edit Contact (UPDATE)
 
+##  React Search
 * **------- React Search--------**
 
   * Adding Search bar JSX
