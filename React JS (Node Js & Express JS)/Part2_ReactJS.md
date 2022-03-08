@@ -1,2 +1,2 @@
-## Creating React App & Its Folder Structure 
+## React Environment Setup
 
