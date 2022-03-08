@@ -261,7 +261,30 @@ document.getElementById("demo").innerHTML = hello("Universe!");
 
 * Refer Below Code Which we will written acual production enviornment 
 
-![image](https://user-images.githubusercontent.com/40323661/157151164-111b4c21-949f-427e-8c23-dd16b6ddbd34.png)
+![image](https://user-images.githubusercontent.com/40323661/157151508-f5081f36-04ec-4c65-9993-590104e115e0.png)
+
+#### Before Creating React Project We Will Learn and Understand React Terminology 
+
+* **React Render HTML**
+   * React's goal is in many ways to render HTML in a web page.
+   * React renders HTML to the web page by using a function called ReactDOM.render().
+
+![image](https://user-images.githubusercontent.com/40323661/157151979-16af6efa-c6e3-48c4-843b-cc1775cdc1e6.png)
+
+
+* **React Components**
+ * Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+ * Components come in two types
+     *  Class components and 
+     *  Function components
+![image](https://user-images.githubusercontent.com/40323661/157152931-21714c1c-bc71-4132-8bd0-1a84b9c47914.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157153036-61816939-3d67-426f-a96a-bd0d4110184b.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157153083-f547631b-e769-4c77-b8e4-724bbd0ac9b9.png)
+
+
+
 
 
 
