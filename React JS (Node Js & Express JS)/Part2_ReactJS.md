@@ -30,4 +30,8 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/157263059-fe8c869e-9bb4-41e5-951a-f44183375965.png)
 
+* Now We are going to use  https://cdnjs.com/libraries/semantic-ui
+![image](https://user-images.githubusercontent.com/40323661/157264408-eca3a5af-bc88-4960-9e14-227d589b4338.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157264463-d7264cf2-6f91-4e6b-ab52-115bc972b6c6.png)
 
