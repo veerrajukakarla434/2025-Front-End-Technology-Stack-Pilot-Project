@@ -46,8 +46,13 @@
 
 * Now adding content to all components from Header component
 
-![image](https://user-images.githubusercontent.com/40323661/157268518-126dc2d9-07a7-4a87-97b1-a0ca0c37ed5b.png)
+![image](https://user-images.githubusercontent.com/40323661/157274609-f00c51dc-502e-4d35-86ba-9f4d35462c12.png)
 
-![image](https://user-images.githubusercontent.com/40323661/157269567-ebfe832a-acc8-4ab0-a15c-533e7f892011.png)
+![image](https://user-images.githubusercontent.com/40323661/157274672-8790c624-d1a2-4f73-a7ca-6db72d4a0f17.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157274719-93e5ee3f-8f4b-49eb-9330-5dcdae1f20dd.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157274537-b7d7db5a-5bc8-4146-9fd1-014ac0a3ed94.png)
+
 
  
