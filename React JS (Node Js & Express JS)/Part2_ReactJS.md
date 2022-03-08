@@ -18,3 +18,16 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/157260065-e79e5d2c-8a1e-465f-b5ee-a4a763c27ecb.png)
 
+* Now We are going to create our own folder structures 
+   
+   ![image](https://user-images.githubusercontent.com/40323661/157261125-b0ab9628-d3ba-4221-b090-019b09f64752.png)
+   
+* In App.js we are going to remove logo import and div tag stuff
+
+![image](https://user-images.githubusercontent.com/40323661/157261956-c839de4b-166b-47c6-91b3-0d44d6d6af5d.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157262893-9699519b-e5c0-41fa-8d1c-15330a114760.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157263059-fe8c869e-9bb4-41e5-951a-f44183375965.png)
+
+
