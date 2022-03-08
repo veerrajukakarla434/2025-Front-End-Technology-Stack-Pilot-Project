@@ -35,3 +35,19 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/157264463-d7264cf2-6f91-4e6b-ab52-115bc972b6c6.png)
 
+* **----------------------------------------------------------------------------------------------------------------------------**
+* Now we are going to learn little more about Componets
+* Components are noting but functions where we can write resubla RJX code example see below
+![image](https://user-images.githubusercontent.com/40323661/157265642-66c19e29-cebc-4561-8d24-10495095e34b.png)
+
+* Now we are importing and adding all components to app.js
+
+![image](https://user-images.githubusercontent.com/40323661/157268650-fae496a3-0179-40c3-b19d-e11892b38d2b.png)
+
+* Now adding content to all components from Header component
+
+![image](https://user-images.githubusercontent.com/40323661/157268518-126dc2d9-07a7-4a87-97b1-a0ca0c37ed5b.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157269567-ebfe832a-acc8-4ab0-a15c-533e7f892011.png)
+
+ 
