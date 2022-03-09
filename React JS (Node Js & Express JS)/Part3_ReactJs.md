@@ -36,4 +36,10 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/157409202-b2579cf2-7fb9-42e7-a3d7-509cbed3ea8c.png)
 
+![image](https://user-images.githubusercontent.com/40323661/157411707-d7c76098-9460-45bf-b5bb-02bda34d0424.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157412974-4609ce59-780c-43a4-bfce-9347e3419571.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157413017-d7f627d9-8f2c-4e77-a986-dd28b34f1e99.png)
+
 
