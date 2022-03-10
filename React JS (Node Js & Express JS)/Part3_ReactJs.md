@@ -24,11 +24,23 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/157407586-c9fe5146-8f79-449d-bfd1-fb53c0315345.png)
 
+#### State in Class Component in ReactJs 
 * Here we can store / take valuse from **state**  (state management feauture from class component)
 
 ![image](https://user-images.githubusercontent.com/40323661/157408624-7820b976-7cc7-4f10-a985-fb093122d15e.png)
 
 ![image](https://user-images.githubusercontent.com/40323661/157408678-0eb98962-30b5-4fae-8577-18a36299f40b.png)
+
+####  Props in Class Component in ReactJs 
+
+* Properties are nothing but send properties one class to another class
+
+![image](https://user-images.githubusercontent.com/40323661/157704637-7e70ce3e-397a-4753-9593-32c72ead39e6.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157704776-5c54f9c4-c186-4bd1-92be-ad2678b115a5.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157704867-94e68216-38b8-40a1-bb7f-61042933c8b2.png)
+
 
 * Now Using Funtional React Component 
 
@@ -37,7 +49,6 @@ export default class App extends Component {
 ![image](https://user-images.githubusercontent.com/40323661/157409202-b2579cf2-7fb9-42e7-a3d7-509cbed3ea8c.png)
 
 ![image](https://user-images.githubusercontent.com/40323661/157411707-d7c76098-9460-45bf-b5bb-02bda34d0424.png)
-
 
 ![image](https://user-images.githubusercontent.com/40323661/157414585-2364940c-f150-4574-aab5-44d900de066e.png)
 
