@@ -67,5 +67,11 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/157413017-d7f627d9-8f2c-4e77-a986-dd28b34f1e99.png)
 
+* onClick in ReactJs   (we can see result in console from browser)
 
+![image](https://user-images.githubusercontent.com/40323661/157712767-9aec9527-949e-4d42-9d6f-23ad527fac1b.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157713640-54ca854b-606f-4cfd-a03b-d3bdaac885d2.png)
+
+![image](https://user-images.githubusercontent.com/40323661/157713690-09bccd67-d295-4151-bbb6-51877bc2b1e4.png)
 
