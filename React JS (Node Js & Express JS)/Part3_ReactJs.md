@@ -41,6 +41,7 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/157704867-94e68216-38b8-40a1-bb7f-61042933c8b2.png)
 
+#### How to Use CSS Styling in ReactJs 
 
 * Now Using Funtional React Component 
 
@@ -58,5 +59,5 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/157413017-d7f627d9-8f2c-4e77-a986-dd28b34f1e99.png)
 
-#### How to Use CSS Styling in ReactJs 
+
 
