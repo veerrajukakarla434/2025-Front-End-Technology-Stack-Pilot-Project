@@ -136,5 +136,93 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/158056854-37ef78de-62d3-4951-a21c-9c6b61091449.png)
 
+#### How To Create Login Form With React 
+
+* Here We are creating form and submitting using onchange and onsubmit 
+
+```JavaScript
+import React, {useState} from 'react'
+import  './App.css'
+
+const App = () => {
+
+  const [data, setData] = useState({
+     username:'',
+     password:''
+
+  })
+   const {username, password}=data;
+   
+   const changeHandler = e=>{
+     setData({...data, [e.target.name] :[e.target.value]})
+   }
+
+   const submitHandler = e=>{
+     e.preventDefault();
+     console.log(data);
+
+   } 
+  return (
+   
+    <div >
+      <center >
+        <form onSubmit={submitHandler}>
+            <input type="text" name="username" value={username} onChange= {changeHandler}/><br/>
+            <input type="password" name="password" value={password} onChange= {changeHandler}/><br/>
+            <input type = "submit" name = "submit" />
+        </form>
+      </center>
+    </div>
+
+  );
+      }
+export default App
+```
+![image](https://user-images.githubusercontent.com/40323661/158058503-93257d6c-949b-4ae0-a4cf-75107fc8e78f.png)
+
+
+```JavaScript
+import React, {useState} from 'react'
+import  './App.css'
+
+const App = () => {
+
+  const [data, setData] = useState({
+     username:'',
+     email:'',
+     password:'',
+     confirmPassword:''
+
+  })
+   const {username, email,password, confirmPassword}=data;
+   
+   const changeHandler = e=>{
+     setData({...data, [e.target.name] :[e.target.value]})
+   }
+
+   const submitHandler = e=>{
+     e.preventDefault();
+      console.log(data);
+   } 
+  return (
+   
+    <div >
+      <center >
+        <form onSubmit={submitHandler}>
+            <input type="text" name="username" value={username} onChange= {changeHandler}/><br/>
+            <input type="email" name="email" value={email} onChange= {changeHandler}/><br/>
+            <input type="password" name="password" value={password} onChange= {changeHandler}/><br/>
+            <input type="password" name="confirmPassword" value={confirmPassword} onChange= {changeHandler}/><br/>
+            <input type = "submit" name = "submit" />
+        </form>
+      </center>
+    </div>
+
+  );
+      }
+export default App
+
+```
+![image](https://user-images.githubusercontent.com/40323661/158059245-a350773f-f218-46a9-8bee-12e31078b424.png)
 
 
