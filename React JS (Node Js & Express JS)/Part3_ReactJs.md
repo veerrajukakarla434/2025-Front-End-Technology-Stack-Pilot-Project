@@ -82,6 +82,31 @@ export default class App extends Component {
 * The React **useState** Hook allows us to track state in a function component.
 * State generally refers to data or properites that need to be tracking in an application.
 
+![image](https://user-images.githubusercontent.com/40323661/158053942-3d6dbdd3-3a28-48f5-8fb9-d4f13d2c0bfc.png)
+
+* Now we are seeing small project with usestate  then we will use useEffect 
+* useEffect will execute after return statement execution
+
+![image](https://user-images.githubusercontent.com/40323661/158054357-d695d870-a50d-4137-84b9-c9f0cb7a554c.png)
+
+* Now I added useEffect hook
+![image](https://user-images.githubusercontent.com/40323661/158054592-efbbfc8b-19bc-444d-8c75-05b6807e9da0.png)
+
+*  So useEffect execute **only one time** if you not added any dependency,  let me add dependency
+![image](https://user-images.githubusercontent.com/40323661/158054689-9ed11078-8582-4c3d-8be3-e91043182c20.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158054701-2d7b549f-d41e-4686-aff6-0d6b1ca9d559.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158054792-73119ac8-f6bf-492d-ad1c-5b844e4944f7.png)
+
+#### onChange & onSubmit  events in React
+
+* Whenver we used onChange event with the help of useState we can get that value into variable during changing/entering the value
+
+![image](https://user-images.githubusercontent.com/40323661/158055497-ccba244d-bb64-49a3-8b42-24c475a3d705.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158055502-3b6f1008-942c-43d8-b481-bc7db3fa234a.png)
+
 
 
 
