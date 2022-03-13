@@ -225,4 +225,59 @@ export default App
 ```
 ![image](https://user-images.githubusercontent.com/40323661/158059245-a350773f-f218-46a9-8bee-12e31078b424.png)
 
+#### Form Validation In React JS 
+
+```JavaScript
+import React, {useState} from 'react'
+import  './App.css'
+
+const App = () => {
+
+  const [data, setData] = useState({
+     username:'',
+     email:'',
+     password:'',
+     confirmPassword:''
+
+  })
+   const {username, email,password, confirmPassword}=data;
+   
+   const changeHandler = e=>{
+     setData({...data, [e.target.name] :e.target.value})
+   }
+
+   const submitHandler = e=>{
+     e.preventDefault();
+
+      if(username.length<5){
+        alert("username must be >5")
+      }else if(password !== confirmPassword)
+      {
+        alert("password and  confirmPassword arenot same")
+      }
+
+      console.log(data);
+   } 
+  return (
+   
+    <div >
+      <center >
+        <form autoComplete='off' onSubmit={submitHandler}>
+            <input type="text" name="username" value={username} placeholder = "User Name" onChange= {changeHandler}/><br/>
+            <input type="email" name="email" value={email} placeholder = "Email" onChange= {changeHandler}/><br/>
+            <input type="password" name="password" value={password} placeholder = "Password" onChange= {changeHandler}/><br/>
+            <input type="password" name="confirmPassword" value={confirmPassword} placeholder = "ConfirmPassword"  onChange= {changeHandler}/><br/>
+            <input type = "submit" name = "submit" />
+        </form>
+      </center>
+    </div>
+
+  );
+      }
+export default App
+
+```
+![image](https://user-images.githubusercontent.com/40323661/158059677-5dc70504-f87a-4411-901a-bc2395a2d4db.png)
+
+
 
