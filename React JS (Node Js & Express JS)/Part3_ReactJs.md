@@ -99,7 +99,7 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/158054792-73119ac8-f6bf-492d-ad1c-5b844e4944f7.png)
 
-#### onChange & onSubmit  events in React
+#### onChange event in React
 
 * Whenver we used onChange event with the help of useState we can get that value into variable during changing/entering the value
 
@@ -107,7 +107,34 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/158055502-3b6f1008-942c-43d8-b481-bc7db3fa234a.png)
 
+#### How to use Map function in ReactJs 
 
+![image](https://user-images.githubusercontent.com/40323661/158055905-6ea84b6d-e0ae-43ef-b369-d18754726372.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056206-d94fbecc-f712-4cce-b5e1-5c87e82a3f61.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056217-eb42b36e-4d1d-4841-87f6-7487d2b320b1.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056258-908a9e59-38a8-448a-bd6c-cba80652d917.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056265-6ebb33ea-c80d-4c0f-88d9-910d42c962f0.png)
+
+* Now Array of Objects with Map
+![image](https://user-images.githubusercontent.com/40323661/158056532-9c24dd84-3433-45bf-b6c1-27ad96e390bf.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056542-8b36860c-e313-4725-976c-6e36381954a5.png)
+
+#### How to use Filter function in ReactJs
+
+![image](https://user-images.githubusercontent.com/40323661/158056563-0e7dc008-55bd-4267-bba6-916637f661e3.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056790-780efe73-b9d5-4176-aac2-e41c0a5c819d.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056806-6eabdf5a-2d64-4668-a7a4-d20d168add8a.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056845-2de9b288-a49a-4e0a-b1dc-474f2ce6b34c.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158056854-37ef78de-62d3-4951-a21c-9c6b61091449.png)
 
 
 
