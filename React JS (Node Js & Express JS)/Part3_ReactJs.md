@@ -75,3 +75,14 @@ export default class App extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/157713690-09bccd67-d295-4151-bbb6-51877bc2b1e4.png)
 
+#### How to use usestate & useEffect in react js
+
+* **React Hooks**  : Hooks were added to React in version 16.8.
+* Hooks allow function components to have access to state and other React features.
+* The React **useState** Hook allows us to track state in a function component.
+* State generally refers to data or properites that need to be tracking in an application.
+
+
+
+
+
