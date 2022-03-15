@@ -52,8 +52,15 @@ export default App
 ```
 ![image](https://user-images.githubusercontent.com/40323661/158420502-1840dc30-5fb2-475f-8b55-1061f4c25160.png)
 
+#### React Router
 
+* Routing is a process in which a user is directed to different pages based on their action or request. 
+* ReactJS Router is mainly used for developing Single Page Web Applications. 
+* React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.
 
+![image](https://user-images.githubusercontent.com/40323661/158422358-4fe7157a-9575-4eae-836b-cc60b76bb3d5.png)
+
+![image](https://user-images.githubusercontent.com/40323661/158422507-8a30efe5-00b0-47c3-9459-9b6f44234963.png)
 
 
 
