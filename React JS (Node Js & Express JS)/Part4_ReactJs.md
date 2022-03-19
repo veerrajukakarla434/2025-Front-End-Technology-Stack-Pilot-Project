@@ -62,7 +62,7 @@ export default App
 
 ![image](https://user-images.githubusercontent.com/40323661/158422507-8a30efe5-00b0-47c3-9459-9b6f44234963.png)
 
-* **React Rout Example**
+* **React Router Example**
 ```JavaScrit
 
 import React from 'react'
@@ -169,6 +169,7 @@ export default App
 
 ```
 
+![image](https://user-images.githubusercontent.com/40323661/159120872-6137d6df-a59a-498d-b493-eb7f53102d42.png)
 
 
 
