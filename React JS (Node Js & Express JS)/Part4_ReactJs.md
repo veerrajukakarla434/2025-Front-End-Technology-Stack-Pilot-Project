@@ -62,5 +62,117 @@ export default App
 
 ![image](https://user-images.githubusercontent.com/40323661/158422507-8a30efe5-00b0-47c3-9459-9b6f44234963.png)
 
+* **React Rout Example**
+```JavaScrit
+
+import React from 'react'
+import {Link} from 'react-router-dom'
+
+const Navbar = () => {
+  return (
+    <div>
+       <ui>
+       <li>
+         <Link  to = "/"> Home </Link>
+       </li>
+       <li>
+          <Link to = "/dashboard">DashBoard</Link>
+       </li>
+       <li>  
+         <Link to = "/about">About</Link>
+       </li>
+       </ui>
+    </div>
+  )
+}
+
+export default Navbar
+
+-------------------------------------------------
+
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div>
+      <center>
+          <h4>This is Home Page Content</h4>
+      </center>
+    </div>
+  )
+}
+
+export default Home
+
+------------------------------------------------------------
+
+import React from 'react'
+
+const About = () => {
+  return (
+    <div>
+      <center>
+          <h4>This is About Page Content</h4>
+      </center> 
+    </div>
+  )
+}
+
+export default About
+
+-----------------------------------------------------------
+
+
+import React from 'react'
+
+const DashBoard = () => {
+  return (
+    <div>
+       <center>
+          <h4>This is DashBoard Page Content</h4>
+      </center>
+    </div>
+  )
+}
+
+export default DashBoard
+
+---------------------------------------------------------
+
+
+import Navbar from './Navbar'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import React from 'react';
+import Home from './Home';
+import DashBoard from './DashBoard';
+import About from './About';
+
+const App = () => {
+  return (
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+            
+            <Route exact path='/' index element={< Home />}></Route>
+            <Route exact path='dashboard' element={< DashBoard />}></Route>
+            <Route exact path='/about' element={< About />}></Route>
+           
+        </Routes>
+      </Router>
+      
+    </div>
+  )
+}
+
+export default App
+
+```
+
+
+
+
+
+
 
 
