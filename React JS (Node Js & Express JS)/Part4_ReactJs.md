@@ -171,9 +171,66 @@ export default App
 
 ![image](https://user-images.githubusercontent.com/40323661/159120872-6137d6df-a59a-498d-b493-eb7f53102d42.png)
 
+#### Redirect Component in Reactjs  (Navigate OR Redirect)
+
+```JavaScript
+import React, { useState } from 'react'
+import {Navigate } from 'react-router-dom'
+
+const Home = () => {
+
+ const[auth, setAuth] =useState(false);
+ if(auth){
+  return  <Navigate  to='/dashboard'/>
+ }
+  return (
+    <div>
+      <center>
+          <h4>This is Home Page Content</h4>
+          <button onClick={()=> setAuth(true)}> Login</button>
+      </center>
+    </div>
+  )
+}
+
+export default Home
+```
+
+#### React axios
+
+* In **ReactJS, Axios** is a library that serves to create HTTP requests that are present externally.
+
+* In the tech industry, many frontend frameworks are popular, and React is one of them. With any backend language using this framework is not easy. To communicate with the database developers have to follow a specific rule, and they have to write a certain line of code. 
+
+* In React communicating with the backend server is done via HTTP protocol. If you’re a developer, then you might have been familiar with the XML Http Request interface and Fetch API. It allows you to fetch data and make HTTP requests.  
+
+* This one is the common method to communicate with the database in React. In React there is another method to communicate with the backend server and that requires the installation of a **popular library Axios.** 
 
 
+* The API helps in communicating with the server via a URL in the form of GET, POST, UPDATE, and Delete.
 
+![image](https://user-images.githubusercontent.com/40323661/159152018-ef5d15b4-8e6c-452c-85f6-3a9a887abba0.png)
 
+#### Base Request Component
 
+```JavaScript
+<Request
+  instance={axios.create({})} /* custom instance of axios - optional */
+  method="" /* get, delete, head, post, put and patch - required */
+  url="" /*  url endpoint to be requested - required */
+  data={} /* post data - optional */
+  params={} /* queryString data - optional */
+  config={} /* axios config - optional */
+  debounce={200} /* minimum time between requests events - optional */
+  debounceImmediate={true} /* make the request on the beginning or trailing end of debounce - optional */
+  isReady={true} /* can make the axios request - optional */
+  onSuccess={(response)=>{}} /* called on success of axios request - optional */
+  onLoading={()=>{}} /* called on start of axios request - optional */
+  onError=(error)=>{} /* called on error of axios request - optional */
+/>
+```
+![image](https://user-images.githubusercontent.com/40323661/159152092-aef4e84c-9dd7-48cb-9863-a6747aae18c5.png)
 
+```javaScript
+import { AxiosProvider, Request, Get, Delete, Head, Post, Put, Patch, withAxios } from 'react-axios'
+```
