@@ -234,3 +234,10 @@ export default Home
 ```javaScript
 import { AxiosProvider, Request, Get, Delete, Head, Post, Put, Patch, withAxios } from 'react-axios'
 ```
+
+#### Instaling Axios
+![image](https://user-images.githubusercontent.com/40323661/159152516-572ca961-f9e6-491a-b5ca-48265697921f.png)
+
+
+
+
