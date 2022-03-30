@@ -235,10 +235,36 @@ export default Home
 import { AxiosProvider, Request, Get, Delete, Head, Post, Put, Patch, withAxios } from 'react-axios'
 ```
 
-#### Instaling Axios
+#### Instaling Axios  &  How To GET API Data Using Axios In ReactJs
 ![image](https://user-images.githubusercontent.com/40323661/159152516-572ca961-f9e6-491a-b5ca-48265697921f.png)
 
 * Json place holder is the site where we can find some dummy data for get API operation with Axios API : https://jsonplaceholder.typicode.com/
+
+* Now I am using useEffect to store URL with content and importing axios
+![image](https://user-images.githubusercontent.com/40323661/160749933-8b4fee6d-5fb5-4990-bbee-d3588d55cef0.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160750422-3cde12af-3a85-4201-9241-1c7a1fbda2e3.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160750459-d94d69ad-e86a-4bf2-b84c-3d65c4daee17.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160750562-6cc3251e-4790-483b-bab9-1c5a289736e6.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160750589-146fbf6d-91a1-4951-b073-5c68c88c4159.png)
+
+* Store resopnse into variable and print data using map function to the browser  
+* That response variable is nothing but useState
+
+![image](https://user-images.githubusercontent.com/40323661/160751420-fe4ba3e9-7198-48fd-8954-880f657dcab1.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160751446-f740ba34-7a90-41fd-85fb-4405ef063921.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160754791-8d837fb3-3a69-48b2-9ecc-fac9df672cb2.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160754822-faf26ec7-5bde-4a4b-b9a2-0844da52d63c.png)
+
+![image](https://user-images.githubusercontent.com/40323661/160754858-716eeff4-a286-4ce3-b91d-e399009ceb6a.png)
+
+
 
 
 
