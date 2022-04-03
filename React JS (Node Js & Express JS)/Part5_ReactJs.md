@@ -333,7 +333,40 @@ export default new EmployeeService();
 
 ![image](https://user-images.githubusercontent.com/40323661/161431356-7deba3ab-43d0-4032-b8ee-c4a6902e0ce3.png)
 
+* React switch was dipricated we need to use <Routes> instead of Switch
+ 
+ ![image](https://user-images.githubusercontent.com/40323661/161432878-ca5b219d-c0e0-4b1e-b7fd-d4130bbe1523.png)
 
+ 
+ ```JavaScript
+ import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ListEmployeeComponent from './components/ListEmployeeComponent';
+import HeaderComponent from './components/HeaderComponent';
+import FooterComponent from './components/FooterComponent';
+
+function App() {
+  return (
+
+    <div>
+      <Router>
+        <HeaderComponent />
+        <div className="contrainer">
+          <Routes>
+            <Route exact path='/' element={< ListEmployeeComponent />}></Route>
+          </Routes>
+        </div>
+        <FooterComponent />
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+
+ ```
+
+![image](https://user-images.githubusercontent.com/40323661/161432893-69263004-e284-4630-acd0-c04aa8334165.png)
 
 
 
