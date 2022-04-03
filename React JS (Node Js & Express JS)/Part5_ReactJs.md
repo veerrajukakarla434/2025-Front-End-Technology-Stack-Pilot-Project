@@ -329,6 +329,11 @@ export default new EmployeeService();
 * Ouput you can see below
 ![image](https://user-images.githubusercontent.com/40323661/161424849-dd531c0d-b8cd-4811-8c91-8bd40b18b309.png)
 
+* To navigate one page to another page we need to install react router 
+
+![image](https://user-images.githubusercontent.com/40323661/161431356-7deba3ab-43d0-4032-b8ee-c4a6902e0ce3.png)
+
+
 
 
 
