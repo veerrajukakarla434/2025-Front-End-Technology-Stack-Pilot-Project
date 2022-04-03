@@ -97,4 +97,238 @@ export default class ListEmployeeComponent extends Component {
 
 ![image](https://user-images.githubusercontent.com/40323661/161409174-33197a9e-42bb-47c9-8d04-8f3e9d53b1bd.png)
 
+* Added Header and footer cpmonents along with service component
+
+```JavaScript
+
+import React from 'react';
+
+
+class FooterComponent extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
+
+    render() {
+        return (
+            <div>
+                <footer >
+                <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+                      <span className='text-muted'> All Rights Resverved 2022 @Vkakarla</span>
+                </nav>
+                </footer>
+            </div>
+        );
+    }
+}
+
+
+export default FooterComponent;
+
+=====================================================================
+import React from 'react';
+
+
+class HeaderComponent extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
+
+    render() {
+        return (
+            <div>
+                <header>
+                    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+                     <div> <a href='https://www.youtube.com/c/vkakarla' className='navbar-brand'> Employee Management Application</a></div>
+                    </nav>
+                </header>  
+            </div>
+        );
+    }
+}
+
+
+
+export default HeaderComponent;
+====================================================================
+import React, { Component } from 'react'
+import EmployeeService from '../services/EmployeeService'
+
+export default class ListEmployeeComponent extends Component {
+   
+    constructor(props){
+        super(props)
+
+        this.state = {
+             employee:[]
+        }
+    }
+
+   componentDidMount(){
+       EmployeeService.getEmployees().then((res) =>{
+          this.setState({employee: res.data});
+       });
+   }
+  render() {
+    return (
+      <div className='container'>
+             <h2 className='text-center'>Employee List</h2>
+             <div className='row'>
+                <table className='table table-striped table-boarded'>  
+                  <thead>
+                    <tr>
+                       <th>Employee First Name</th>
+                       <th>Employee Last Name</th>
+                       <th>Employee Email ID</th>
+                       <th>Employee Department</th>
+                       <th>Employee Address</th>
+                       <th>Actions</th>
+                    </tr>  
+                  </thead>
+                  <tbody>
+                    {
+                        this.state.employee.map(
+                            employee =>
+                            <tr key={employee.id}>
+                               <td>{employee.firstName}</td>
+                               <td>{employee.lastName}</td>
+                               <td>{employee.email}</td>
+                               <td>{employee.department}</td>
+                               <td>{employee.address}</td>
+                            </tr>
+                        )
+                    }
+
+                  </tbody>
+
+                </table>
+             </div>
+      </div>
+    )
+  }
+}
+
+===================================================
+App.css
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   background-color: black;
+   text-align: center;
+   color: white;
+}
+==============================================
+
+App.js
+
+
+import './App.css';
+import ListEmployeeComponent from './components/ListEmployeeComponent';
+import HeaderComponent from './components/HeaderComponent';
+import FooterComponent from './components/FooterComponent';
+
+function App() {
+  return (
+
+    <div>
+       <HeaderComponent />
+       <div className="contrainer">
+          <ListEmployeeComponent />
+       </div>
+       <FooterComponent />
+    </div>
+
+    
+  );
+}
+
+export default App;
+=================================================
+index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+=============================================
+
+import axios from 'axios';
+
+const EMPLOYEE_API_BASE_URL ="http://localhost:2023/api/v1/employee";
+class EmployeeService{
+
+     getEmployees(){
+         return axios.get(EMPLOYEE_API_BASE_URL);
+     }
+}
+
+export default new EmployeeService();
+
+```
+
+* Ouput you can see below
+![image](https://user-images.githubusercontent.com/40323661/161424849-dd531c0d-b8cd-4811-8c91-8bd40b18b309.png)
+
+
+
 
