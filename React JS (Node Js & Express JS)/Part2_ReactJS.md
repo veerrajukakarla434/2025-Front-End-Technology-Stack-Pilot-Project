@@ -4,6 +4,11 @@
 
 ![image](https://user-images.githubusercontent.com/40323661/157257278-87e0cd4f-7a91-4e93-abc1-7944d9921eff.png)
 
+* If you are having any issue with NPM you can check node version and select respective node version to create your react app
+
+![image](https://user-images.githubusercontent.com/40323661/233345775-c831491c-99db-4f90-9545-56586949307f.png)
+![image](https://user-images.githubusercontent.com/40323661/233345880-f7c6b99f-ad62-465b-914d-65a62073cf2d.png)
+![image](https://user-images.githubusercontent.com/40323661/233345930-79bbeb6e-2b14-4717-abbe-491b37d8d3d8.png)
 * After Created App Successfully you will see below folder structure 
 
 ![image](https://user-images.githubusercontent.com/40323661/157257437-23a6b533-b566-42df-8a3f-4ff53e7e0720.png)
