@@ -148,5 +148,3 @@ const elementName = <ComponentName />;
 ```
 * In the above syntax, the ComponentName is the name of the user-defined component. 
 * **Note:** The name of a component should always start with a capital letter. This is done to differentiate a component tag from HTML tags.
-
-
