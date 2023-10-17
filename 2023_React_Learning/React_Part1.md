@@ -94,3 +94,18 @@ In React, everything is treated as a component be it a functional component or c
 
 * Suppose we have new data similar to the previous one, Virtual DOM compares previous and new structures and sees that it has no change, so nothing gets rendered to the Browser. This is how the Virtual DOM is helping to enhance the Browser performance.
 
+* **How does this Virtual DOM compare itself to its previous version?**
+
+* This is where the **Diffing Algorithm** comes into play. Some concepts used by this Algorithm are:
+
+    * Two elements of **different types** will produce **different trees**.
+    * **Breadth-First Search (BFS)** is applied because if a node is found as changed, it will **re-render the entire subtree** hence Depth First Approach is not exactly optimal. (Ref: Fig.2)
+    * When comparing **two elements of the same type,** keep the underlying node as same and only update changes in attributes or styles.
+    * React uses optimizations so that a **minimal difference can be calculated in O(N)** efficiently using this Algorithm.
+ 
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/508a6bf3-d1bf-4755-870f-8d8f1d459acb) 
+
+
+
+
+
