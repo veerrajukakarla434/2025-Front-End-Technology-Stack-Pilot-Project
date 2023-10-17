@@ -105,7 +105,48 @@ In React, everything is treated as a component be it a functional component or c
  
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/508a6bf3-d1bf-4755-870f-8d8f1d459acb) 
 
+#### ReactJS Components
 
+* **What is a ReactJS Component?**
+* A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React will be made up of pieces called components. Components make the task of building UIs much easier. You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your final UI. 
 
+* You can see in the below image we have broken down the UI of GeeksforGeeks’s homepage into individual components.
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/45d342a5-5106-4538-8951-f0baac0167a9)
+
+* Components in React basically return a piece of JSX code that tells what should be rendered on the screen.
+
+* **Types of components in ReactJS**
+
+* In React, we mainly have two types of components: 
+
+* **Functional Components:** Functional components are simply javascript functions. We can create a functional component in React by writing a javascript function. These functions may or may not receive data as parameters.
+```java
+function demoComponent() {
+    return (<h1>
+                Welcome Message!
+            </h1>);
+}
+```
+
+* **Class Components:** The class components are a little more complex than the functional components. The functional components are not aware of the other components in your program whereas the class components can work with each other. We can pass data from one class component to another class component. We can use JavaScript ES6 classes to create class-based components in React. The below example shows a valid class-based component in React: 
+
+```java
+class Democomponent extends React.Component {
+    render() {
+        return <h1>Welcome Message!</h1>;
+    }
+
+}
+```
+* **Rendering Components in ReactJS**
+* React is also capable of rendering user-defined components. To render a component in React we can initialize an element with a user-defined component and pass this element as the first parameter to ReactDOM.render() or directly pass the component as the first argument to the ReactDOM.render() method. 
+
+The below syntax shows how to initialize a component to an element: 
+```java
+const elementName = <ComponentName />;
+```
+* In the above syntax, the ComponentName is the name of the user-defined component. 
+* **Note:** The name of a component should always start with a capital letter. This is done to differentiate a component tag from HTML tags.
 
 
