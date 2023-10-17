@@ -26,6 +26,52 @@
 
 #### ReactJS Data Binding
 
+* Data Binding is the process of connecting the view element or user interface, with the data which populates it.
 
+* In **ReactJS**, components are rendered to the user interface and the component’s logic contains the data to be displayed in the view(UI). The connection between the data to be displayed in the view and the component’s logic is called data binding in ReactJS.
 
+* **One-way Data Binding:** ReactJS uses one-way data binding. In one-way data binding one of the following conditions can be followed:
+
+* **Component to View:** Any change in component data would get reflected in the view.
+* **View to Component:** Any change in View would get reflected in the component’s data.
+
+#### ReactJS Virtual DOM
+
+* **What is DOM?**
+* DOM stands for ‘Document Object Model’. In simple terms, it is a structured representation of the HTML elements that are present in a webpage or web app. DOM represents the entire UI of your application. The DOM is represented as a tree data structure. It contains a node for each UI element present in the web document. It is very useful as it allows web developers to modify content through JavaScript, also it being in structured format helps a lot as we can choose specific targets and all the code becomes much easier to work with.
+
+* **Disadvantages of real DOM?**
+* Every time DOM gets updated, the updated element and its children have to be rendered again to update the UI of our page. For this, each time there is a component update, the DOM needs to be updated and the UI components have to be re-rendered.
+Example: 
+```java
+// Simple getElementById() method
+document.getElementById('some-id').innerValue = 'updated value';
+```
+* **What is Virtual DOM?**
+* React uses Virtual DOM exists which is like a lightweight copy of the actual DOM(a virtual representation of the DOM). So for every object that exists in the original DOM, there is an object for that in React Virtual DOM. It is exactly the same, but it does not have the power to directly change the layout of the document. 
+
+* **Manipulating DOM is slow, but manipulating Virtual DOM is fast** as nothing gets drawn on the screen. So each time there is a change in the state of our application, the virtual DOM gets updated first instead of the real DOM. 
+
+* **How does virtual DOM actually make things faster?**
+* When anything new is added to the application, a virtual DOM is created and it is represented as a tree. Each element in the application is a node in this tree. So, whenever there is a change in the state of any element, a new Virtual DOM tree is created. This new Virtual DOM tree is then compared with the previous Virtual DOM tree and make a note of the changes. After this, it finds the best possible ways to make these changes to the real DOM. Now only the updated elements will get rendered on the page again.
+
+* **How virtual DOM Helps React?**
+In React, everything is treated as a component be it a functional component or class component. A component can contain a state. Whenever the state of any component is changed react updates its Virtual DOM tree. Though it may sound like it is ineffective the cost is not much significant as updating the virtual DOM doesn’t take much time. 
+
+* React maintains two Virtual DOM at each time, one contains the updated Virtual DOM and one which is just the pre-update version of this updated Virtual DOM. Now it compares the pre-update version with the updated Virtual DOM and figures out what exactly has changed in the DOM like which components have been changed. This process of comparing the current Virtual DOM tree with the previous one is known as ‘diffing’. Once React finds out what exactly has changed then it updates those objects only, on real DOM. 
+
+* React uses something called batch updates to update the real DOM. It just means that the changes to the real DOM are sent in batches instead of sending any update for a single change in the state of a component. 
+
+* We have seen that the re-rendering of the UI is the most expensive part and React manages to do this most efficiently by ensuring that the Real DOM receives batch updates to re-render the UI. This entire process of transforming changes to the real DOM is called Reconciliation.
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/d6f1104e-1ca0-43cc-967d-8b35e0b33507)
+
+#### ReactJS Reconciliation
+
+* The reconciliation process makes React work faster. **Reconciliation** is the process through which React updates the Browser DOM.
+
+* Important concepts behind the **working of the Reconciliation process** are:
+
+* **Virtual DOM**  
+* **Diffing Algorithm**
 
