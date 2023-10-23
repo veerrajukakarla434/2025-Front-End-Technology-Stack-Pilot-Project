@@ -122,5 +122,29 @@ The problem discussed above is solved with the help of a special ReactJS concept
 
  * For more info -> https://www.geeksforgeeks.org/reactjs-functional-components/
 
+* **ReactJS Lifecycle of Components**
+* Ref -> https://www.geeksforgeeks.org/reactjs-lifecycle-components/?ref=lbp
+
+* **Differences between Functional Components and Class Components**
+* Ref-> https://www.geeksforgeeks.org/differences-between-functional-components-and-class-components/?ref=lbp
+
+#### ReactJS Props & State
+
+* **ReactJS Methods as Props**
+* **What are props?**
+* We know that everything in ReactJS is a component and to pass in data to these components, props are used. Whenever we call child components from parents we can pass data as props. This helps the parent component communicate with the child.
+
+Although passing in props like this is great, it surely lacks flexibility in an application. For example, we cannot let the child communicate with the parent in this way. This, nonetheless, can be done by passing methods as props in ReactJS. 
+
+
+* Props are arguments passed into React components.
+* Props are passed to components via HTML attributes.
+* React Props are like function arguments in JavaScript and attributes in HTML.
+* To send props into a component, use the same syntax as HTML attributes:
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/cb50923e-d791-4c99-a779-58c11b1cd8f3)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/0302a5df-30b7-40bd-b13f-253b5cf2e26c)
+
 
 
