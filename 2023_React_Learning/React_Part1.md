@@ -305,6 +305,6 @@ ReactDOM.render(
 
 * Till now, we have worked with Components with only static data. That is, we are writing data directly inside a Component. What if, we want to pass some data to our Components? React allows us to do so with the help of another property called **props**. We will learn about props in detail in our next article.
 
+#### ReactJS Pure Components
 
-
-
+Ref Link : https://www.geeksforgeeks.org/reactjs-pure-components/?ref=lbp
