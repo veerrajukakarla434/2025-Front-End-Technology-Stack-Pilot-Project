@@ -148,3 +148,163 @@ const elementName = <ComponentName />;
 ```
 * In the above syntax, the ComponentName is the name of the user-defined component. 
 * **Note:** The name of a component should always start with a capital letter. This is done to differentiate a component tag from HTML tags.
+
+* The below example renders a component named Welcome to the Screen: 
+
+* Open your index.js file from your project directory, and make the given below changes:
+
+```java
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// This is a functional component 
+const Welcome = () => {
+	return <h1>Hello World!</h1>
+}
+
+ReactDOM.render(
+	<Welcome />,
+	document.getElementById("root")
+);
+```
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/99969b07-2532-4b8b-a2c6-f5e161af6bee)
+
+
+* Let us see step-wise what is happening in the above example: 
+
+* We call the ReactDOM.render() as the first parameter.
+* React then calls the component Welcome, which returns <h1>Hello World!</h1>; as the result.
+* Then the ReactDOM efficiently updates the DOM to match with the returned element and renders that element to the DOM element with id as “root”.
+
+#### ReactJS | Components – Set 2
+
+* **Composing Components:** Remember in our previous article, our first example of GeeksforGeeks’s homepage which we used to explain components? Let’s recall what we have told, “we can merge all of these individual components to make a parent component”. This is what we call composing components. We will now create individual components named Navbar, Sidebar, ArticleList and merge them to create a parent component named App and then render this App component.
+The below code in the index.js file explains how to do this:
+
+* **Filename- App.js:**
+
+```java
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Navbar Component
+const Navbar=()=>
+{
+	return <h1>This is Navbar.< /h1>
+}
+
+// Sidebar Component
+const Sidebar=()=> {
+	return <h1>This is Sidebar.</h1>
+}
+
+// Article list Component
+const ArticleList=()=>
+{
+	return <h1>This is Articles List.</h1>
+}
+
+// App Component
+const App=()=>
+{
+	return(
+			<div>
+				<Navbar />
+				<Sidebar />
+				<ArticleList />
+			</div>
+		);
+}
+
+ReactDOM.render(
+	<App />, 
+	document.getElementById("root")
+);
+```
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/8801d4b0-6e74-4efb-af5a-a878fa89fac6)
+
+* You can see in the above output that everything worked well, and we managed to merge all the components into a single component App.
+
+* **Decomposing Components:** Decomposing a Component means breaking down the component into smaller components. We have told the thing about composing smaller components to build a parent component from the very start when we started discussing components repeatedly. Let us see why there is a need to do so. Suppose we want to make a component for an HTML form. Let’s say our form will have two input fields and a submit button. We can create a form component as shown below: 
+
+```java
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const Form=()=>
+{
+	return (
+		<div>
+			<input type = "text" placeholder = "Enter Text.." />
+			<br />
+			<br />
+			<input type = "text" placeholder = "Enter Text.." />
+			<br />
+			<br />
+			<button type = "submit">Submit</button>
+		</div>
+	);
+}
+
+ReactDOM.render(
+	<Form />,
+	document.getElementById("root")
+);
+
+```
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/8a1a02d4-67ca-44f6-ab2c-38102c89488b)
+
+
+* The above code works well to create a form. But let us say now we need some other form with three input fields. To do this we will have to again write the complete code with three input fields now. But what if we have broken down the Form component into two smaller components, one for the input field and another one for the button? This could have increased our code reusability to a great extent. That is why it is recommended to React to break down a component into the smallest possible units and then merge them to create a parent component to increase the code modularity and reusability. In the below code the component Form is broken down into smaller components Input and Button.
+
+* **Filename- App.js:**
+```java
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Input field component
+const Input=()=>
+{
+	return(
+		<div>
+			<input type="text" placeholder="Enter Text.." />
+			<br />
+			<br /> 
+		</div>
+	);
+}
+
+// Button Component
+const Button=()=>
+{
+	return <button type = "submit">Submit</button>; 
+}
+
+// Form component
+const Form=()=>
+{
+	return (
+		<div>
+			<Input />
+			<Input />
+			<Button />		 
+		</div>
+	);
+}
+
+ReactDOM.render(
+	<Form />, 
+	document.getElementById("root")
+);
+```
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/ee99b3a1-1a09-4d1d-9d28-54d63248f879)
+
+
+* Till now, we have worked with Components with only static data. That is, we are writing data directly inside a Component. What if, we want to pass some data to our Components? React allows us to do so with the help of another property called **props**. We will learn about props in detail in our next article.
+
+
+
+
