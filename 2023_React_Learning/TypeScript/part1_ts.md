@@ -21,3 +21,8 @@
     * TypeScript supports the latest JavaScript features, including ECMAScript 2015.
     * TypeScript gives all the benefits of ES6 plus more productivity.
     * Developers can save a lot of time with TypeScript.
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/5599de72-e042-4183-8a8b-adfd43a9ae22)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/d8ab24c1-7ba1-47c5-88cb-850d8f18f98e)
+
