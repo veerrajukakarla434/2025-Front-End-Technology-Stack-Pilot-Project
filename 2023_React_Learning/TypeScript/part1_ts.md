@@ -26,3 +26,8 @@
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/d8ab24c1-7ba1-47c5-88cb-850d8f18f98e)
 
+* Components of TypeScript
+    * Ref: https://www.javatpoint.com/typescript-components
+* In this section, we will learn how to install TypeScript, pre-requisites before installation of TypeScript, and in how many ways we can install TypeScript.
+    * Ref: https://www.javatpoint.com/typescript-installation
+  
