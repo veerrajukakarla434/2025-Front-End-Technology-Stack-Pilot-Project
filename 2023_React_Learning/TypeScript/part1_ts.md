@@ -30,4 +30,4 @@
     * Ref: https://www.javatpoint.com/typescript-components
 * In this section, we will learn how to install TypeScript, pre-requisites before installation of TypeScript, and in how many ways we can install TypeScript.
     * Ref: https://www.javatpoint.com/typescript-installation
-  
+* TypeScript Ref for remaining topics : https://www.javatpoint.com/typescript-types  
