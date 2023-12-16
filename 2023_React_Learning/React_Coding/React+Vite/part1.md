@@ -4,3 +4,10 @@
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/c85189dc-4167-4136-a784-66dbabc1fddf)
 
+* Out put
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/699bbb27-5c77-46fe-911e-d7c72a53a86c)
+
+
+
+
