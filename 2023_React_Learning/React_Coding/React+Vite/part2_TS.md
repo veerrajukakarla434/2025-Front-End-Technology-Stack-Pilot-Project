@@ -1,6 +1,6 @@
 ## ReactJS+Vite Application Using TypeScript Introduction
 
-* **React, combined with TypeScript**, offers a **powerful way to develop scalable** and maintainable web applications.
+* **React, combined with TypeScript**, offers a **powerful** way to develop **scalable and maintainable** web applications.
 * TypeScript brings static typing to the world of JavaScript, making it easier to write error-free code. Meanwhile, **Vite is a fast and lightweight build tool** for modern web development, providing a rapid development experience focused on speed and simplicity.
 
 #### Unique features of Vite
