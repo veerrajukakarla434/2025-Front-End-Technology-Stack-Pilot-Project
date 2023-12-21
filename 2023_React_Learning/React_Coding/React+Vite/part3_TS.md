@@ -33,3 +33,5 @@
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/13fc06d5-6406-4d62-9c4d-224401280354)
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/e7f4fc06-5aa9-4e02-a1ad-7ca19705d7ca)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/ec335f7d-6600-4591-a8de-19744d89b546)
