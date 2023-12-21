@@ -25,3 +25,22 @@
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/b92b4028-ea75-4b30-9714-7dfb2abf5762)
 
+* We can define java script variable in **JSX**
+
+ ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/c0fc0777-dc02-43b6-a034-de586310cf1e)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/8e9d275b-9d1e-4cba-8eca-31911a472e42)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/6ddadf1b-7e67-4981-b121-6adbd0a57041)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/b4ce128b-cde9-4f90-a302-0e0544858e8b)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/a7c04787-e710-4cad-b665-1941c6351014)
+  
+* In JSX we should have one root element then you can add multiple child elements it will work (this is JSX rule it should be one root tag)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/a613908d-ba6c-4d66-b49f-97e8aace910c)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/03927dc7-6c90-4d2c-b24e-cb0b0812f7db)
+
+
