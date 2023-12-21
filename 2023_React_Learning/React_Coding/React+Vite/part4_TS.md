@@ -43,4 +43,8 @@
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/03927dc7-6c90-4d2c-b24e-cb0b0812f7db)
 
-
+#### Reuseability of compnents
+* we can use multiple components which leads modularity and easy maintance and testing one by one is easy.
+* If we want to use **reuse component dynamic** we can go for **props**
+  
+  
