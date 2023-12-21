@@ -20,3 +20,8 @@
 
 * if you want to exit or stop the application  press Ctrl+C application will stop
  
+#### Project Structure 
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/cba679ac-2f40-411a-a6ec-50e2a3783e27)
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/9fe6e419-2b3d-4170-9219-568059be4f79)
