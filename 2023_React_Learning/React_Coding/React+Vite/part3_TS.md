@@ -28,12 +28,47 @@
 
 * After deleting unwanted file to understand in simple way
 
-![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/e263edde-dfa9-4999-82dc-19d9cd395daf)
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/1f945d09-19b6-476e-b17c-bb9fa5796892)
 
-![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/13fc06d5-6406-4d62-9c4d-224401280354)
+* index.html
+```java
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
 
-![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/e7f4fc06-5aa9-4e02-a1ad-7ca19705d7ca)
+```
+* App.tsx
+```java
+function App() {
+  return (
+    <div className="App">Hello World : Welcome To ReactJS Application</div>
+  );
+}
 
+export default App;
+```
+* main.tsx
+```java
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
 * Now the Output
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/ec335f7d-6600-4591-a8de-19744d89b546)
