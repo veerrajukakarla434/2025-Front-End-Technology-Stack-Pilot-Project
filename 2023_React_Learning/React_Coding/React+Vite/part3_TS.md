@@ -24,11 +24,10 @@
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/cba679ac-2f40-411a-a6ec-50e2a3783e27)
 
-![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/9fe6e419-2b3d-4170-9219-568059be4f79)
-
 * After deleting unwanted file to understand in simple way
 
-![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/1f945d09-19b6-476e-b17c-bb9fa5796892)
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/ac4b5f6e-fa75-4bde-8abc-6085cb38f998)
+
 
 * index.html
 ```java
