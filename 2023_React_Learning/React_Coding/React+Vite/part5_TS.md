@@ -66,4 +66,63 @@ const person = {
 * It makes the code more clear. When we access the props using this keyword, we have to use this/ this.props throughout the program, but by the use of restructuring, we can discard this/ this.props by assigning them in new variables.
 * This is very difficult to monitor props in complex applications, so by assigning these props in new own variables we can make a code more readable.
 
+* Hello.tsx
+```java
+function Hello(props) {
+  const { name, message } = props;
+  return (
+    <div>
+      <h1>
+        {name} {message}
+      </h1>
+    </div>
+  );
+}
+export default Hello;
 
+```
+* App.tsx
+
+```java
+import Hello from "./components/Hello";
+
+function App() {
+  return (
+    <div className="App">
+      <Hello name="Veer" message="How are you" />
+    </div>
+  );
+}
+
+export default App;
+
+```
+* main.tsx
+```java
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import Hello from "./components/Hello";
+
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+```
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/af3c9637-b031-4064-bb18-f02df33bca06)
+
+* We can destructuring the props like below
+  ```java
+  function Hello(name, message) {
+  return (
+    <div>
+      <h1>
+        {name} {message}
+      </h1>
+    </div>
+  );
+}
+export default Hello;
+```
