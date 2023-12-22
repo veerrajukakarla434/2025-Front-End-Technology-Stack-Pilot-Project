@@ -114,7 +114,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/af3c9637-b031-4064-bb18-f02df33bca06)
 
 * We can destructuring the props like below
-  ```java
+```java
   function Hello(name, message) {
   return (
     <div>
