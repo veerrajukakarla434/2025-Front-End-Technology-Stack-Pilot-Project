@@ -43,5 +43,17 @@ export default App;
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/8458762e-c562-4b3c-8bcc-6520afa8d91f)
   
+#### Destructuring of Props in ReactJS
 
+* **What is destructuring?**
 
+* **Destructuring** was introduced in ES6. It’s a JavaScript feature that allows us to extract multiple pieces of data from an array or object and assign them to their own variables.
+
+* Imagine you have a person object with the following properties:
+```java
+const person = {
+  firstName: "Lindsay",
+  lastName: "Criswell",
+  city: "NYC"
+}
+```
