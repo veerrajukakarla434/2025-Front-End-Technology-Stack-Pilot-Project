@@ -164,9 +164,12 @@ function App() {
 
 export default App;
 ```
+
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/63999fa5-5aa2-4572-96f7-1139c3720205)
 
+
 * **Listing the arrary objects using map**
+  
 ```javascript
 export default function Fruits() {
   const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
@@ -178,8 +181,8 @@ export default function Fruits() {
     </div>
   );
 }
-
 ```
+
 ```javascript
 import Fruits from "./components/Fruits";
 
@@ -193,9 +196,11 @@ function App() {
 
 export default App;
 ```
+
 * Output
  
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/bda3fceb-99ab-40f6-9166-0502d4a3ea3f)
+
 
 * We can go for list of object by using or adding **li** and **UL**
   
@@ -214,6 +219,7 @@ export default function Fruits() {
 }
 
 ```
+
 * Output will be
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/762ace4a-6d34-4cd2-bc5b-5b5e87332eff)
