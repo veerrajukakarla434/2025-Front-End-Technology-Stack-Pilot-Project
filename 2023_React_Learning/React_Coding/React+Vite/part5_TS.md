@@ -166,5 +166,36 @@ export default App;
 ```
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/63999fa5-5aa2-4572-96f7-1139c3720205)
 
+* **Listing the arrary objects using map**
+```javascript
+export default function Fruits() {
+  const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
+  return (
+    <div>
+      {fruits.map((fruit) => (
+        <h1>{fruit}</h1>
+      ))}
+    </div>
+  );
+}
 
+```
+```javascript
+import Fruits from "./components/Fruits";
+
+function App() {
+  return (
+    <div className="App">
+      <Fruits />
+    </div>
+  );
+}
+
+export default App;
+```
+* Output
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/bda3fceb-99ab-40f6-9166-0502d4a3ea3f)
+
+
+  
 
