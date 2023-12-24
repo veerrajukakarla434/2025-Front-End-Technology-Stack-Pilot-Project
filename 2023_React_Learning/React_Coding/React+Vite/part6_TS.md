@@ -37,3 +37,6 @@ export default function ConditionalComponent() {
 }
 
 ```   
+* Output:
+
+  ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/90d36599-bd78-4fb0-bcd1-28f4cf8fdf06)
