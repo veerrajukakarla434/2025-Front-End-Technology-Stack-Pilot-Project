@@ -93,7 +93,9 @@ export default function Welcome() {
 
   ```  
 * Output:
+
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/4207a1ae-9707-4bc7-839b-7684c7ea6504)
-  
+
+
 * Here the problem is should return more than one from a function as components.
 * So Elements will come in to this picture
