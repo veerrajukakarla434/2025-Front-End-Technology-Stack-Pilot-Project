@@ -194,6 +194,7 @@ function App() {
 export default App;
 ```
 * Output
+ 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/bda3fceb-99ab-40f6-9166-0502d4a3ea3f)
 
 
