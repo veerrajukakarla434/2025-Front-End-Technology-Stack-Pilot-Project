@@ -129,4 +129,10 @@ export default Hello;
 
 ####  Immutability of Props
 
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/536ec38b-8686-49ff-bb75-1238c9cc5935)
+
+* Props are immutable, If you try to change name which has passed throug pops you will get bellow error
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/824673bc-7ba0-4489-8f66-119f7c1aa748)
+  
 
