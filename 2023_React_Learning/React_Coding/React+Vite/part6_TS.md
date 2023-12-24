@@ -106,3 +106,21 @@ export default function Welcome() {
 
 * Here the problem is should return more than one from a function as components.
 * So Elements will come in to this picture
+* You can use single return statement in component or adding elements
+  
+```javascripts
+import Code from "./Code";
+import Welcome from "./Welcome";
+
+export default function ConditionalComponent() {
+  let message;
+  const diaplay = true;
+  if (diaplay) {
+    message = <Welcome />; //  <h1>You Are Welcome</h1>
+  } else {
+    message = <Code />; //<h1>Code EveryDay!!</h1>
+  }
+
+  return message;
+}
+```
