@@ -136,7 +136,7 @@ export default Hello;
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/824673bc-7ba0-4489-8f66-119f7c1aa748)
   
 #### Passing Arrays, Ojects via Props
-
+* Hello.tsx
 ```java
 function Hello(props) {
   return (
@@ -149,6 +149,7 @@ function Hello(props) {
 }
 export default Hello;
 ```
+* App.tsx
 ```java
 import Hello from "./components/Hello";
 
