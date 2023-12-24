@@ -214,3 +214,55 @@ export default function Fruits() {
 }
 
 ```
+* Output will be
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/762ace4a-6d34-4cd2-bc5b-5b5e87332eff)
+
+* Still we are getting some error becuase of array object or value should have key (refer below code)
+
+```javascript
+export default function Fruits() {
+  const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
+  return (
+    <div>
+      <ul>
+        {fruits.map((fruit) => (
+          <li key={fruit}>{fruit}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```  
+* Above object is having only single array ogbject, now we can see complex object rendering
+```javascript
+export default function Fruits() {
+  //const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
+
+  const fruits = [
+    { name: "Apple", price: 10, color: "red" },
+    { name: "Banana", price: 5, color: "yellow" },
+    { name: "Orange", price: 8, color: "Orange" },
+    { name: "Mango", price: 15, color: "yellow" },
+    { name: "Pineapple", price: 30, color: "yellow" },
+  ];
+
+  return (
+    <div>
+      <ul>
+        {fruits.map((fruit) => (
+          <li key={fruit.name}>
+            {" "}
+            {fruit.name} ${fruit.price} {fruit.color}{" "}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+```
+* Output
+  
+ ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/568b84b5-f026-4abb-9b22-3c0befb2746f)
+     
