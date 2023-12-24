@@ -197,6 +197,20 @@ export default App;
  
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/bda3fceb-99ab-40f6-9166-0502d4a3ea3f)
 
-
+* We can go for list of object by using or adding **li** and **UL**
   
+```javascript
+export default function Fruits() {
+  const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
+  return (
+    <div>
+      <ul>
+        {fruits.map((fruit) => (
+          <li>{fruit}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
+```
