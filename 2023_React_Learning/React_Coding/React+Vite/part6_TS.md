@@ -133,4 +133,14 @@ export default function ConditionalComponent() {
   return diaplay ? <h1>You Are Welcome</h1> : <h1>Code EveryDay!!</h1>;
 }
 
+OR
+import Code from "./Code";
+import Welcome from "./Welcome";
+
+export default function ConditionalComponent() {
+  const diaplay = false;
+
+  return diaplay ? <Welcome /> : <Code />;
+}
+
 ```
