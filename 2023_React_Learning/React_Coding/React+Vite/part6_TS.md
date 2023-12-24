@@ -40,3 +40,58 @@ export default function ConditionalComponent() {
 * Output:
 
   ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/90d36599-bd78-4fb0-bcd1-28f4cf8fdf06)
+
+* If We add as components instead of statements
+* App.tsx
+```javascripts
+import ConditionalComponent from "./components/ConditionalComponent";
+
+function App() {
+  return (
+    <div className="App">
+      <ConditionalComponent />
+    </div>
+  );
+}
+
+export default App;
+```
+* ConditionalComponent.tsx
+```javascripts
+import Code from "./Code";
+import Welcome from "./Welcome";
+
+export default function ConditionalComponent() {
+  const diaplay = false;
+  if (diaplay) {
+    return <Welcome />;
+  } else {
+    return <Code />;
+  }
+}
+```
+* Welcome.tsx
+```javascript
+export default function Welcome() {
+  return (
+    <div>
+      <h1>You Are Welcome</h1>
+    </div>
+  );
+}
+
+```
+* Code.tsx
+  ```javascript
+  export default function Code() {
+  return (
+    <div>
+      <h1>Code EveryDay!!</h1>
+    </div>
+  );
+}
+
+  ```  
+* Output:
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/4207a1ae-9707-4bc7-839b-7684c7ea6504)
+  
