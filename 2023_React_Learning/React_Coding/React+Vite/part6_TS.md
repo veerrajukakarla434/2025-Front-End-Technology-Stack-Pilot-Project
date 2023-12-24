@@ -107,8 +107,8 @@ export default function Welcome() {
 * Here the problem is should return more than one from a function as components.
 * So Elements will come in to this picture
 * You can use single return statement in component or adding elements
-  
-```javascripts
+* ConditionalComponent.tsx  
+```javascript
 import Code from "./Code";
 import Welcome from "./Welcome";
 
