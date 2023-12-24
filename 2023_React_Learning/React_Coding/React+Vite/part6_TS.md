@@ -124,3 +124,13 @@ export default function ConditionalComponent() {
   return message;
 }
 ```
+* **Using Ternary Operators In React**
+
+```javascript
+
+export default function ConditionalComponent() {
+  const diaplay = false;
+  return diaplay ? <h1>You Are Welcome</h1> : <h1>Code EveryDay!!</h1>;
+}
+
+```
