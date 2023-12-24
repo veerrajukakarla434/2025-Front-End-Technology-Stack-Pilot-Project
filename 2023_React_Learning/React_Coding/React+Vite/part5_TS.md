@@ -266,3 +266,61 @@ export default function Fruits() {
   
  ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/568b84b5-f026-4abb-9b22-3c0befb2746f)
      
+#### Props: Rendering Components Inside A Loop
+
+* App.tx
+```javascript
+import Fruits from "./components/Fruits";
+
+function App() {
+  return (
+    <div className="App">
+      <Fruits />
+    </div>
+  );
+}
+
+export default App;
+```
+* Fruits.tsx
+```java
+import Fruit from "./Fruit";
+
+export default function Fruits() {
+  //const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
+
+  const fruits = [
+    { name: "Apple", price: 10, color: "red" },
+    { name: "Banana", price: 5, color: "yellow" },
+    { name: "Orange", price: 8, color: "Orange" },
+    { name: "Mango", price: 15, color: "yellow" },
+    { name: "Pineapple", price: 30, color: "yellow" },
+  ];
+
+  return (
+    <div>
+      <ul>
+        {fruits.map((fruit) => (
+          <Fruit
+            key={fruit.name}
+            name={fruit.name}
+            price={fruit.price}
+            color={fruit.color}
+          />
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
+* Fruit.tsx
+```javascript
+export default function Fruit({ name, price, color }: any) {
+  return (
+    <li key={name}>
+      {name} ${price} {color}
+    </li>
+  );
+}
+```
+  
