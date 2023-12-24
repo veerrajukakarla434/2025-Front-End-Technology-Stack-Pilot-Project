@@ -135,4 +135,35 @@ export default Hello;
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/824673bc-7ba0-4489-8f66-119f7c1aa748)
   
+#### Passing Arrays, Ojects via Props
+
+```java
+function Hello(props) {
+  return (
+    <div>
+      <h1>
+        {props.name} {props.message} {props.seatNumbers}
+      </h1>
+    </div>
+  );
+}
+export default Hello;
+```
+```java
+import Hello from "./components/Hello";
+
+function App() {
+  const seatNumbers = [1, 2, 3, 5];
+  return (
+    <div className="App">
+      <Hello name="Veer" message="How are you" seatNumbers={seatNumbers} />
+    </div>
+  );
+}
+
+export default App;
+```
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/63999fa5-5aa2-4572-96f7-1139c3720205)
+
+
 
