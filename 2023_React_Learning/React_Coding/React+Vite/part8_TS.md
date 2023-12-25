@@ -74,3 +74,49 @@ export default function Counter() {
 ```
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/46273b12-d671-4a06-8029-0d37ebf90f4b)
 
+* **Creating Multiple States In React**
+
+* Here we can increment OR decrement the value by setting and using multiple states
+* Counter.tsx
+```javascript
+import { useState } from "react";
+
+export default function Counter() {
+  const [count, setCount] = useState(0);
+  const [incrementBy, setIncrementBy] = useState(1);
+
+  function eventHandle() {
+    setCount(count + incrementBy);
+  }
+  function decrementHandle() {
+    setCount(count - incrementBy);
+  }
+
+  function increaseIncrementBy() {
+    setIncrementBy(incrementBy + 1);
+  }
+
+  function decrementIncrement() {
+    setIncrementBy(incrementBy - 1);
+  }
+
+  return (
+    <div>
+      <h1>Count Value is:{count}</h1>
+      <button onClick={eventHandle}> Increment</button>
+      <button onClick={decrementHandle}> Decrement</button>
+      <h1>We are Increment OR Decrement The value By:{incrementBy}</h1>
+      <button onClick={increaseIncrementBy}> Increment</button>
+      <button onClick={decrementIncrement}> Decrement</button>
+    </div>
+  );
+}
+
+```  
+* Output1 just initial
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/4b8c7531-44f6-4cb4-8c09-a8ad6f9c20f8)
+
+* Count(incremebtby 5) insreasing by 5
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/d55f3327-7885-440d-96f4-b9ae66134711)
