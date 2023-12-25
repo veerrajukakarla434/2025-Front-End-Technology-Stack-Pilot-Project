@@ -43,4 +43,7 @@ export default App;
 
 ```
   
+* Output
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/7881001b-8d4d-46f8-853d-33ce43c1c5d9)
   
