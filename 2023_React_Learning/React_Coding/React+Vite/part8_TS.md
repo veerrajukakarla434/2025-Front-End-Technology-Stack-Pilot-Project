@@ -32,8 +32,8 @@ export default App;
 
 * Counter.tsx
   
-  ```javascript
-  import { useState } from "react";
+```javascript
+import { useState } from "react";
 
 export default function Counter() {
   const [count, setCount] = useState(0);
@@ -47,11 +47,30 @@ export default function Counter() {
     </div>
   );
 }
-
 ```
-
 * Output:
 
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/95ed6474-0c97-4015-bcdb-2037b9a64054)
 
-![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/7f7923c9-d7f7-42ab-b25c-a2471452325e)
+```javascript
+import { useState } from "react";
+
+export default function Counter() {
+  const [count, setCount] = useState(0);
+  function eventHandle() {
+    setCount(count + 1);
+  }
+  function decrementHandle() {
+    setCount(count - 1);
+  }
+  return (
+    <div>
+      <h1>Count Value is:{count}</h1>
+      <button onClick={eventHandle}> Increment</button> <br />
+      <button onClick={decrementHandle}> Decrement</button>
+    </div>
+  );
+}
+```
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/46273b12-d671-4a06-8029-0d37ebf90f4b)
 
