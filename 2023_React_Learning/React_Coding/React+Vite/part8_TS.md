@@ -27,9 +27,11 @@ function App() {
 }
 
 export default App;
+
 ```
-* 
+
 * Counter.tsx
+  
   ```javascript
   import { useState } from "react";
 
@@ -46,8 +48,10 @@ export default function Counter() {
   );
 }
 
-  ```
+```
+
 * Output:
+
+
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/7f7923c9-d7f7-42ab-b25c-a2471452325e)
 
-  ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/49991aab-72c7-439e-b1ac-23215866b1a4)
