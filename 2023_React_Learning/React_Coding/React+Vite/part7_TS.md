@@ -46,4 +46,23 @@ export default App;
 * Output
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/7881001b-8d4d-46f8-853d-33ce43c1c5d9)
-  
+
+* Now we can add event functionality to above function
+
+```javascript
+export default function Message() {
+  function handleEvent() {
+    console.log("Buttion clicked"); // alert("Hey you clicked me");
+  }
+
+  return (
+    <div>
+      <button onClick={handleEvent}>Click here to get a message</button>
+    </div>
+  );
+}
+
+```
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/b0c8fd83-c648-45eb-aad0-688af698b9a5)
+
+
