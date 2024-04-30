@@ -2,21 +2,7 @@
 
 * Reference to create Angular Peoject:
   * https://angular.io/cli
-```text 
-Bootstrap steps:
-1. npm install bootstrap jQuery
-2. In angular.json file
-   In styles array: 
-        "src/styles.css",
-        "node_modules/bootstrap/dist/css/bootstrap.min.css"
-   In scripts array:
-        "node_modules/jquery/dist/jquery.min.js",
-        "node_modules/bootstrap/dist/js/bootstrap.min.js"
 
-Material UI steps:
-1. ng add @angular/material
-2. Choose theme and we are good to go
-```
     
 ```javascript
 
@@ -44,5 +30,34 @@ Material UI steps:
      ng g c components/delete-employee
      ng g s service/employee
     ```
+* Now configure the bootstrap
+  
+```text
+  Bootstrap steps:
+1. npm install bootstrap jQuery
+2. In angular.json file
+   In styles array: 
+        "src/styles.css",
+        "node_modules/bootstrap/dist/css/bootstrap.min.css"
+   In scripts array:
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/bootstrap/dist/js/bootstrap.min.js"
 
-    
+Material UI steps:
+1. ng add @angular/material
+2. Choose theme and we are good to go
+```    
+
+* Add routing to the header and home components in app-routing-module.ts
+
+  ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/e3cb1abe-1bf5-479b-a2a9-15ac688c7402)
+
+* Now app.module.ts will be updated like this
+
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/cfd2a909-885c-4b31-8556-5a307b76f51e)
+
+* Now home page looks like this
+
+  ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/8b0e0558-a9fd-41fd-9417-acb303aba969)
+
+
