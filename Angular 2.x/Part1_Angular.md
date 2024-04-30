@@ -5,7 +5,7 @@
 
     
 ```javascript
-
+ Alt + Shift + F  for code formate
   if you want to install specific version of angular 
   npm install -g @angular/cli@16.2.1
   > npm install @angular/cli@16
