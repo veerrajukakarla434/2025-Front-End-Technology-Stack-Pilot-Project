@@ -22,6 +22,9 @@ Material UI steps:
 
   if you want to install specific version of angular 
   npm install -g @angular/cli@16.2.1
+  > npm install @angular/cli@16
+  > ng new ems-frontend
+
 
   ng new ems-ui
   npm install
