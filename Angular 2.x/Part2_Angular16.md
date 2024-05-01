@@ -168,3 +168,78 @@ export class EmployeeComponent implements OnInit{
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/1bbfa1f3-c2a8-4a35-ae45-9fcbfba21095)
 
 * Then need to add FormsModule in app.module.ts file at imports
+
+* Employee component html
+
+  ```javascript
+  <div class="container">
+  <div class="card mt-5 p-5">
+    <form>
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Id</mat-label>
+        <input matInput placeholder="Employee Id"  name="employeeId" [(ngModel)]="employee.employeeId" disabled/>
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Name</mat-label>
+        <input matInput placeholder="Employee Name" name="employeeName" [(ngModel)]="employee.employeeName"/>
+        <mat-icon matSuffix>person</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee ContactNumber</mat-label>
+        <input matInput placeholder="Employee Name" name="employeeContactNumber" [(ngModel)]="employee.employeeContactNumber"/>
+        <mat-icon matSuffix>call</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Address</mat-label>
+        <input matInput placeholder="Employee Name" name="employeeAddress" [(ngModel)]="employee.employeeAddress"/>
+        <mat-icon matSuffix>import_contacts</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Choose your department</mat-label>
+        <mat-select>
+          <mat-option value="It">It</mat-option>
+          <mat-option value="Network">Network</mat-option>
+          <mat-option value="Finance">Finance</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <div>
+        <label>Gender</label>
+        <mat-radio-group aria-label="Select an option">
+          <mat-radio-button (click)="selectGender('M')" value="M">M</mat-radio-button>
+          <mat-radio-button (click)="selectGender('F')" value="F">F</mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <mat-form-field appearance="outline" class="mt-2">
+        <mat-label>Employee Skills</mat-label>
+        <input matInput placeholder="Employee Skills" name="employeeSkills" [(ngModel)]="employee.employeeSkills" disabled/>
+        <mat-icon matSuffix>menu_book</mat-icon>
+      </mat-form-field>
+      <div>
+        <label>Skills</label>
+        <section class="example-section">
+          <mat-checkbox (change)="onSkillsChanges($event)" value= "Java" class="Java">Java</mat-checkbox>
+          <mat-checkbox (change)="onSkillsChanges($event)" value= "Angular" class="Angular">Angular</mat-checkbox>
+          <mat-checkbox (change)="onSkillsChanges($event)" value= "Spring Boot" class="Spring Boot">Spring Boot</mat-checkbox>
+          <mat-checkbox (change)="onSkillsChanges($event)" value= "ReactJs" class="ReactJs">ReactJs</mat-checkbox>
+        </section>
+      </div>
+
+      <mat-divider></mat-divider>
+      <div class="text-center mt-3">
+        <button mat-raised-button class="m-3">Clear</button>
+        <button mat-raised-button color="primary" class="m-2">Save</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+```
+![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/aa3ed055-d642-450a-aed2-4a502975bb42)
+
+
