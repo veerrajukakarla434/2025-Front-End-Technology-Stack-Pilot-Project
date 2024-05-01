@@ -1,6 +1,8 @@
 #### Adding Form Values
-* Adding default employee.component.html 
+* Adding default employee.component.html
+  
 ```javascript
+
 <div class="container">
   <div class="card mt-5 p-5">
     <mat-form-field appearance="outline">
@@ -68,6 +70,7 @@
 * app-module.ts
 
 ```javascript
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -114,8 +117,11 @@ import {MatButtonModule} from '@angular/material/button';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 ```
+
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/45e838d2-8e76-4e16-b769-100a8852dd01)
+
   
 * Created employee model to hold the data
 
@@ -130,9 +136,12 @@ export class AppModule { }
   employeeSkills: string;
 }
 
-  ```
+```
+
 * Define those in employee/component.ts file
+
 ```javascript
+
 import { Component, OnInit } from '@angular/core';
 import { Employee } from '../employee.model';
 
@@ -163,7 +172,9 @@ export class EmployeeComponent implements OnInit{
 }
 
 ```
+
 * Use form to bind the data in html file
+
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/1bbfa1f3-c2a8-4a35-ae45-9fcbfba21095)
 
@@ -171,7 +182,8 @@ export class EmployeeComponent implements OnInit{
 
 * Employee component html
 
-  ```javascript
+```javascript
+
   <div class="container">
   <div class="card mt-5 p-5">
     <form>
@@ -240,6 +252,7 @@ export class EmployeeComponent implements OnInit{
 </div>
 
 ```
+
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/aa3ed055-d642-450a-aed2-4a502975bb42)
 
 
@@ -247,7 +260,8 @@ export class EmployeeComponent implements OnInit{
 
 ![image](https://github.com/veerrajukakarla434/2025-Front-End-Technology-Stack-Pilot-Project/assets/40323661/67235e1c-450e-4194-bff3-105e4927c117)
 
-```java script
+```javascript
+
 emp html file
 
 <div class="container">
