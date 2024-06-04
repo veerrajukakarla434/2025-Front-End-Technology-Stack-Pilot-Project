@@ -195,4 +195,76 @@ export const ReactHookForm123 = () => {
 
 ```
 
+* With Validations:
+
+```javascript
+
+import { useForm } from "react-hook-form"
+import {DevTool} from "@hookform/devtools"
+
+export const ReactHookForm123WithValidations = () => {
+
+    type FormValues = {
+        firstName: string;
+        lastName: string;
+        email: string;
+    }
+
+    const form = useForm<FormValues>();
+    const { register , control, handleSubmit , formState} = form
+    const {errors} = formState;
+   
+    const onSubmit = (data: FormValues)=> {
+        console.log('Form Submited', data);
+    };
+
+
+
+
+
+    return (
+        <div>
+            <form onSubmit={handleSubmit(onSubmit)} noValidate>
+              
+                <label htmlFor="firstNamen">First Name:</label>
+                <input 
+                type="text"  
+                id="firstName"  
+                {...register("firstName", {
+                    required:{
+                        value: true,
+                        message:'firstName is required'}
+                    })}/> <br/>
+                 <p>{errors.firstName?.message}</p>
+
+                <label htmlFor="lastName">Last Name:</label>
+                <input type="text"  
+                id="lastName"  
+                {...register("lastName", {
+                    required:{
+                        value: true,
+                        message:'lastName is required'}
+
+                    })}/> <br/>
+                <p>{errors.lastName?.message}</p>
+
+                <label htmlFor="email">Email:</label>
+                <input type="text"  
+                id="email"  
+                {...register("email", {
+                    pattern:{
+                        value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                        message:'Invalid Email Formate'
+                    }
+
+                    })}/> <br/>
+                 <p>{errors.email?.message}</p>
+
+                <button>Submit</button>
+            </form>
+            <DevTool control={control} />
+        </div>
+    )
+}
+```
  
