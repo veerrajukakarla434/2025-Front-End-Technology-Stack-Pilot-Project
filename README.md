@@ -150,6 +150,49 @@ export const MultipleInputValuesWithValidations = () => {
 
 ```
 
+* React hook with form values
 
+```javascript
+
+  import { useForm } from "react-hook-form"
+import {DevTool} from "@hookform/devtools"
+
+export const ReactHookForm123 = () => {
+
+    type FormValues = {
+        firstName: string;
+        lastName: string;
+        email: string;
+    }
+
+    const form = useForm<FormValues>();
+    const { register , control, handleSubmit } = form
+   
+
+    const onSubmit = (data: FormValues)=> {
+        console.log('Form Submited', data);
+    };
+
+    return (
+        <div>
+            <form onSubmit={handleSubmit(onSubmit)}>
+              
+                <label htmlFor="firstNamen">First Name:</label>
+                <input type="text"  id="firstName"  {...register("firstName")}/> <br/>
+                
+                <label htmlFor="lastName">Last Name:</label>
+                <input type="text"  id="lastName"  {...register("lastName")}/> <br/>
+                
+                <label htmlFor="email">Email:</label>
+                <input type="text"  id="email"  {...register("email")}/> <br/>
+
+                <button>Submit</button>
+            </form>
+            <DevTool control={control} />
+        </div>
+    )
+}
+
+```
 
  
