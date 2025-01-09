@@ -63,5 +63,6 @@ ng add @angular/material
 
 * You can refer from home.html component
   
+![image](https://github.com/user-attachments/assets/62b88df7-b916-473d-895e-cc88aec0d22a)
   
 
