@@ -46,8 +46,22 @@ ng add @angular/material
 ```text
   to create empolee module
   ng g module emploee
-  
+  ng g service employee/employee
+  ng g component employee/home --standalone
+  ng g component employee/employee-form --standalone
+  ng g i employee/employee
+ 
 ```
+![image](https://github.com/user-attachments/assets/c73de66b-ff18-4e3d-91a9-6f1e5e951a86)
 
+* Created above components, now add app.routes.ts
+![image](https://github.com/user-attachments/assets/0093e4ff-161b-423d-bb77-627c1e35d9d5)
+  
+* Now you can run ng server it will work
 
+![image](https://github.com/user-attachments/assets/2cfc70f1-8a05-4e99-aee4-c175d21d7108)
+
+* You can refer from home.html component
+  
+  
 
