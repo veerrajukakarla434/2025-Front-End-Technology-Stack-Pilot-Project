@@ -23,3 +23,31 @@ ng add @angular/material
 * Now create employee module
   
 -------------------------------------------------------------------
+
+#### Create proxy.config.json for defining taget URL
+
+```text
+{
+    "/api":{
+        "target":"http://localhost:8084",
+        "secure": false
+    }
+}
+```
+* And above file put in angular.json flie under serve, after builder
+ ```text
+ "options": {
+            "proxyConfig": "src/proxy.config.json"
+          },
+``` 
+--------------------------------------------------------------------
+#### Creating employee module and components
+
+```text
+  to create empolee module
+  ng g module emploee
+  
+```
+
+
+
