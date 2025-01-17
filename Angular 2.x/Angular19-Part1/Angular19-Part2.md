@@ -17,3 +17,11 @@ How to render component ?
 * Component decorator is nothing but insiede .ts file starting with @Component
 
   ![image](https://github.com/user-attachments/assets/0ea90636-76c6-412e-9bd5-feca1a75bc5d)
+
+#### can we have single file component ?
+* yes we can have single file component nothing but .ts file and where we can add template (is notginh but html file) and style (is nothing but css file) bot are in @component decorator of .ts file.  you can see bellow
+
+```javascript
+![image](https://github.com/user-attachments/assets/075b8050-d66b-40b1-8733-d8059b1f8bad)
+
+```
