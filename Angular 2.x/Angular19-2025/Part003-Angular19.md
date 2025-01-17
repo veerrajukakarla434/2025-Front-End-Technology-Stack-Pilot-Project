@@ -14,6 +14,8 @@
 * Just we are creating dataBinding compenent and rendering from app component
 * Right now we are not creating or adding router
 
+![image](https://github.com/user-attachments/assets/a48900b2-7c9d-4684-9a63-8a9e690ca7c9)
+
 * This is from app component ts file
 ![image](https://github.com/user-attachments/assets/10f6d41b-ccbc-4b89-9920-8f6c2ec30c51)
 
