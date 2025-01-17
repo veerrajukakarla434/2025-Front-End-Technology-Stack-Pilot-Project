@@ -21,7 +21,7 @@ How to render component ?
 #### can we have single file component ?
 * yes we can have single file component nothing but .ts file and where we can add template (is notginh but html file) and style (is nothing but css file) bot are in @component decorator of .ts file.  you can see bellow
 
-```javascript
+
 ![image](https://github.com/user-attachments/assets/075b8050-d66b-40b1-8733-d8059b1f8bad)
 
-```
+
