@@ -14,11 +14,15 @@
 * Just we are creating dataBinding compenent and rendering from app component
 * Right now we are not creating or adding router
 
-* This is from app component html
-![image](https://github.com/user-attachments/assets/0aabc4f5-1625-407d-9a04-e7be9d25f224)
+* This is from app component ts file
+![image](https://github.com/user-attachments/assets/10f6d41b-ccbc-4b89-9920-8f6c2ec30c51)
 
-* this is from app component .ts ts file
-
-![image](https://github.com/user-attachments/assets/f4d9ada5-ba07-4f24-bb97-da57db5eb235)
+* this is from app component .hmpl ts file
 
 ![image](https://github.com/user-attachments/assets/69ce3ac5-bf09-468e-8e81-fa9106771880)
+
+![image](https://github.com/user-attachments/assets/6c03b65b-021c-4db7-9041-3a9cc96e7377)
+
+* This is from data binding html component
+
+  ![image](https://github.com/user-attachments/assets/cdf4dbb1-2762-4ef7-a51e-d5f590ce143d)
