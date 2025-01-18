@@ -9,6 +9,7 @@
       event binding
  * What is two way data binding ?
      using ngModel directive
+ * For Desgning UI bootstrap 
 ```
 
 * Just we are creating dataBinding compenent and rendering from app component
@@ -27,4 +28,28 @@
 
 * This is from data binding html component
 
-  ![image](https://github.com/user-attachments/assets/cdf4dbb1-2762-4ef7-a51e-d5f590ce143d)
+![image](https://github.com/user-attachments/assets/cdf4dbb1-2762-4ef7-a51e-d5f590ce143d)
+
+
+#### For Desgning UI bootstrap
+
+```text
+https://www.npmjs.com/package/bootstrap
+cmd: npm i bootstrap
+go to parent/root folder
+run above comd
+copy from node modules and add angular.json file under style
+"./node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
+
+like below
+
+ "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "./node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
+              "src/styles.css"
+            ],
+
+```
+#### How to declare a variable / state in component 
+
+
