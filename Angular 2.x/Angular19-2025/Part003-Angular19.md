@@ -51,5 +51,17 @@ like below
 
 ```
 #### How to declare a variable / state in component 
+    What is one way Data Binding ?
+      interpolation
+      propertyBinding
+      event binding
 
+![image](https://github.com/user-attachments/assets/cf0479aa-bc4b-4c44-bb84-3d4ee6f80713)
 
+![image](https://github.com/user-attachments/assets/79b8645c-f91e-4ffd-a07e-492bfd543714)
+
+![image](https://github.com/user-attachments/assets/c1f4c4fb-f513-43a4-9d11-5752b6e8fbfd)
+
+![image](https://github.com/user-attachments/assets/42eafa5a-aa7e-4554-bf3e-1b91df521196)
+
+![image](https://github.com/user-attachments/assets/bae0c1bf-c286-4cdb-acc0-742caa0fdf1d)
