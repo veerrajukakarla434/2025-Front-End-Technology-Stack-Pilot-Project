@@ -41,4 +41,12 @@ ngFor
 
 * Ref -> https://github.com/veerrajukakarla434/ems-web-ui/tree/develop/src/app/components/ng-if
 
+#### NgFor
+* we can render elements inside list
+* we can render /loop list like buttons
+* we can loop list inside div element
+
+![image](https://github.com/user-attachments/assets/07440765-d49f-4a13-886f-d1ca302b3084)
+
+![image](https://github.com/user-attachments/assets/b113fd1b-2696-4a51-880f-0109f1478471)
    
