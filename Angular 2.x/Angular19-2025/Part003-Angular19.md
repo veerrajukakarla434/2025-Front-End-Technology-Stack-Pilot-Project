@@ -45,7 +45,7 @@ like below
 
  "styles": [
               "@angular/material/prebuilt-themes/azure-blue.css",
-              "./node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
 
@@ -72,6 +72,15 @@ like below
 
 ![image](https://github.com/user-attachments/assets/2ad002fc-2a5c-4998-ae03-8213c46a433d)
 
-#### Tw0 way Data Bonding using ngModel
+#### Two way Data Binding using ngModel directive
 
+![image](https://github.com/user-attachments/assets/3487b5c7-15f7-487c-aea7-59750446cfe1)
+
+* Tho way data binding we can achive using ndModel directive.
+* If you want to use two way data binding, you need to import form
+
+
+![image](https://github.com/user-attachments/assets/178e52d8-ac13-4d47-a86c-6ed2317cd457)
+
+![image](https://github.com/user-attachments/assets/2d37db4a-2e3f-4867-bc6a-e0ed9f367b48)
 
