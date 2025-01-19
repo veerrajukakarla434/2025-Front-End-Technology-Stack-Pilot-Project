@@ -50,3 +50,9 @@ ngFor
 
 ![image](https://github.com/user-attachments/assets/b113fd1b-2696-4a51-880f-0109f1478471)
    
+* Array Of Employee Object printed in droupdown and table
+
+![image](https://github.com/user-attachments/assets/ea762b95-4dfa-4428-8a76-cd37038c9cbb)
+
+![image](https://github.com/user-attachments/assets/48cb8dd0-88ca-4764-863a-7f6e2f2a057f)
+
