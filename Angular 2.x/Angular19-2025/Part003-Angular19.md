@@ -65,3 +65,13 @@ like below
 ![image](https://github.com/user-attachments/assets/42eafa5a-aa7e-4554-bf3e-1b91df521196)
 
 ![image](https://github.com/user-attachments/assets/bae0c1bf-c286-4cdb-acc0-742caa0fdf1d)
+
+#### One way Data Bonding
+
+![image](https://github.com/user-attachments/assets/e6bf5fbc-2844-431b-b7d4-e745edd76eae)
+
+![image](https://github.com/user-attachments/assets/2ad002fc-2a5c-4998-ae03-8213c46a433d)
+
+#### Tw0 way Data Bonding using ngModel
+
+
