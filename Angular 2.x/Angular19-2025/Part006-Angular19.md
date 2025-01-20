@@ -20,3 +20,6 @@ What is Router Link ?
 ![image](https://github.com/user-attachments/assets/3cf9cce9-a4e3-43dd-ad39-32d3668067e5)
 
 ![image](https://github.com/user-attachments/assets/4fa943f6-da03-498c-9122-3c796d33b52f)
+
+* We can navgate one page to another page in html page using router link
+* we can navagate one page to another using function, inside that we we can navgate by using path
