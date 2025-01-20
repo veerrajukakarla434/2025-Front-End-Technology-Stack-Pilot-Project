@@ -23,3 +23,18 @@ What is Router Link ?
 
 * We can navgate one page to another page in html page using router link
 * we can navagate one page to another using function, inside that we we can navgate by using path
+
+![image](https://github.com/user-attachments/assets/b5a0ea1c-1bb1-4ec5-9ebd-c89e3ae76ca2)
+
+![image](https://github.com/user-attachments/assets/2045c557-9d74-43a9-bee0-059d837181b8)
+
+### home
+![image](https://github.com/user-attachments/assets/62ce1fe1-8694-44a0-8bda-bf1043868d99)
+#### DataBinding
+![image](https://github.com/user-attachments/assets/b6bbd948-2d24-4af4-856f-538bb1cb530d)
+#### ng class
+![image](https://github.com/user-attachments/assets/4bdd6730-4b89-4250-bac0-fc191d23cd84)
+
+
+
+
