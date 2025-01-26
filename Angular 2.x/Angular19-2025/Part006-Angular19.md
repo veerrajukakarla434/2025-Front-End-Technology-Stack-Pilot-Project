@@ -35,6 +35,13 @@ What is Router Link ?
 #### ng class
 ![image](https://github.com/user-attachments/assets/4bdd6730-4b89-4250-bac0-fc191d23cd84)
 
+* Using navigater methos in .ts file also we can navigate to particular page.
+
+![image](https://github.com/user-attachments/assets/e712bc27-6181-46f6-90bf-716fdeef064f)
+
+![image](https://github.com/user-attachments/assets/34e78fcd-ffdc-4db4-a640-90ae1517aa49)
+
+![image](https://github.com/user-attachments/assets/17e631cd-c795-4843-b8b9-4ddc202ef50b)
 
 
 
