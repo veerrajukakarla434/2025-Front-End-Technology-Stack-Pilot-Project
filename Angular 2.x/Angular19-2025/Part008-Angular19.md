@@ -10,3 +10,7 @@
 ![image](https://github.com/user-attachments/assets/8478b637-8436-4ce0-beda-f139b6e84d4e)
 
 ![image](https://github.com/user-attachments/assets/4122e3ad-8930-49c6-a961-cc46c9ce07e5)
+
+* We can add validations like this
+
+![image](https://github.com/user-attachments/assets/0c7e3418-9505-4dd4-8165-3dacae24e0e6)
