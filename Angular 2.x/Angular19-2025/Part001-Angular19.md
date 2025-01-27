@@ -1,5 +1,5 @@
 # Angular19 Part One
-
+#### Reference Project -> https://github.com/veerrajukakarla434/2025-Jan-ems-web-ui-Angular19-Reference
 * app-module.ts is replaced by app-config in angular 19
 * from main.ts application will bootstrap the Application
 * index.html is the main ui page will display the content from the <app-root></app-root>  from app component
