@@ -1,6 +1,6 @@
 # Angular19 Part One
 
-#### Reference Project -> Project-1 https://github.com/veerrajukakarla434/2025-Jan-ems-web-ui-Angular19-Reference
+#### Reference Project -> Project-1 https://github.com/veerrajukakarla434/2025-Jan-Project1-ems-web-ui-Angular19-Reference
 * Above one is for practicing the Angular 19 initial steps
 * Project2- is doing ems management coding for complete guide
 * Project 3 -is the final one for audience
