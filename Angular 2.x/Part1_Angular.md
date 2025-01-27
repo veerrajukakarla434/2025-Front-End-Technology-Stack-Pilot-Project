@@ -7,6 +7,7 @@
 ```javascript
  Alt + Shift + F  for code formate
   for latest version npm install -g @angular/cli
+  npm install bootstrap i
   if you want to install specific version of angular
   npm install -g @angular/cli@16.2.1
   > npm install @angular/cli@16
