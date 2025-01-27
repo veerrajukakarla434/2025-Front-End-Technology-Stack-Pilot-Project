@@ -1,5 +1,9 @@
 # Angular19 Part One
-#### Reference Project -> https://github.com/veerrajukakarla434/2025-Jan-ems-web-ui-Angular19-Reference
+
+#### Reference Project -> Project-1 https://github.com/veerrajukakarla434/2025-Jan-ems-web-ui-Angular19-Reference
+* Above one is for practicing the Angular 19 initial steps
+* Project2- is doing ems management coding for complete guide
+* Project 3 -is the final one for audience
 * app-module.ts is replaced by app-config in angular 19
 * from main.ts application will bootstrap the Application
 * index.html is the main ui page will display the content from the <app-root></app-root>  from app component
