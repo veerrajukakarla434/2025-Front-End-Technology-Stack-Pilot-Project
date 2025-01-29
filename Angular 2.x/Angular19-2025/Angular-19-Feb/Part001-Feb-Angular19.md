@@ -61,3 +61,8 @@ export const routes: Routes = [
 ];
 
   ```
+
+* Login component simply used the template form
+* now got to booststrap5 navbar codepen
+
+
