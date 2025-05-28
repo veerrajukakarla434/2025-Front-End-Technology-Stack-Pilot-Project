@@ -1,4 +1,4 @@
-## HTM & CSS
+## HTML & CSS
 
 * **From This Lesstion What we are going to learn**
    * About HTML OR Introduction
